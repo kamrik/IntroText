@@ -5,6 +5,13 @@ Material covered during the lecture:
 - Searching in text - wildcards and the basics of regex 
 
 
+## Submission instructions
+Submit the following on D2L:
+- link to your github.io page  (for example: https://kamrik.github.io/notes )
+- link to your repository (for example: https://github.com/kamrik/notes )
+- screenshot of the github.io page
+  - if you couldn't get the page to workig, then submit a screenshot of your repository front page
+
 ## Step 1 - Enable GitHub Pages on your repo
 Open the GitHub repo you created during the lab last week. If you haven’t created a GitHub repo, create one using items 1 to 4 from the last week’s lab instructions.
 
