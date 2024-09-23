@@ -1,4 +1,4 @@
-# Lab week 4 - GitHub Pages and github.dev editor
+# Lab week 4 - GitHub Pages and `github.dev` editor
 Material covered during the lecture:
 - Keyboards, touch-typing and keyboard shortcuts
 - Text editors - notepad, vi, VSCode 
@@ -26,7 +26,7 @@ because the repo is called `notes` and the username is `kamrik`
 
 Congratulations, you have your own web page now!
 
-## Step 2 - Edit your repo using github.dev editor
+## Step 2 - Edit your repo using the `github.dev` editor
 
 Open the front page of your repo, and replace the `.com` with `.dev` in the browser address bar. For example for the repo  
 `https://github.com/kamrik/notes`  
@@ -110,6 +110,16 @@ linear
 - Try searching (Ctrl-F) for the word “line”
 - Try hovering with the mouse over all the icons in the Search dialog and see what they mean
 - Try clicking buttons 1 and 2 in the screenshot and see how they affect the search
+
+
+![search dialog](img/github_dev_search_dialog.png)
+
+Try searching using the following regex patterns. Enable regex search by toggling button 3 from the screenshot above.
+- `line\d`
+- `line\d+`
+- `line\d*`
+- `^line`
+- `line$`
 
 
 
