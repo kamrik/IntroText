@@ -9,18 +9,22 @@ Material covered during the lecture:
 Open the GitHub repo you created during the lab last week. If you haven’t created a GitHub repo, create one using items 1 to 4 from the last week’s lab instructions.
 
 Enable GitHub Pages on your repo using the screenshot #1 below (follow the number order).
-Settings → Pages → Branch: main, folder (root)  → click `Save` button
+
+`Settings` → `Pages` → Branch: `main`, folder `(root)` → click `Save` button
+
+![screenshot - enable Pages](img/github_enable_pages_files.png)
 
 
 It takes about 40 seconds for the change to take effect, optionally, you can see the progress under “Actions” (number 5 on the screenshot)
 
-You can see your new page at
-https://your_username.github.io/repo_name
-note the .io instead of .com in github.io
-For example Mark’s page is at https://kamrik.github.io/notes/ 
-because the repo is called “notes” and the username is “kamrik”
+You can see your new page at  
+`https://your_username.github.io/repo_name`  
+Note the `.io` instead of `.com` in `github.io`  
+For example Mark’s page is at   
+https://kamrik.github.io/notes/  
+because the repo is called `notes` and the username is `kamrik`
 
-You have your own web page now.
+Congratulations, you have your own web page now!
 
 ## Step 2 - Edit your repo using github.dev editor
 
@@ -29,12 +33,13 @@ Open the front page of your repo, and replace the `.com` with `.dev` in the brow
 Open  
 `https://github.dev/kamrik/notes` 
 
-It will open the repo in a text editor that should look like this (maybe in dark mode)
+It will open the repo in a text editor that should look similar to this screenshot:
+![screenshot - enable Pages](img/github_dev_new_file.png)
 
 
-### Step 2.1 - change your website theme
-In the .dev editor create a new file called  _config.yml (see screenshot above)
-And copy the following 2 lines into it (see screenshot below)
+### Step 2.1 - change your website visual theme
+In the .dev editor create a new file called  `_config.yml` 
+And copy the following 2 lines into it (see screenshot above).
 
 ```
 title: Demo notes repo
@@ -57,7 +62,8 @@ Check the list of available themes you can use instead of jekyll-theme-architect
 - [jekyll-theme-time-machine](https://pages-themes.github.io/time-machine/)
 
 #### Commit the changes
-The system requires a commit message, type anything. In this case “Change theme” would be an appropriate commit message.
+The system requires a commit message, type anything. In this case “Change theme” would be an appropriate commit message. After you commit, give the system some time to "build" your page (you can see the progress under `Actions`) and chek how your page looks like with the new theme.
+![screenshot - enable Pages](img/github_dev_commit.png)
 
 
 
@@ -66,10 +72,13 @@ The system requires a commit message, type anything. In this case “Change them
 Edit the README.md file. Add a section listing some 3 keyboard shortcuts you already use frequently (if any) and 3 more shortcuts you would like to start using. Feel free to google for common keyboard shortcuts.
 
 For example:
-
 ```
 ## Keyboard shortcuts
-Shortcuts I frequently use: Ctrl-C, Ctrl-V, Ctrl-Z
+Shortcuts I frequently use: 
+- Ctrl-C (copy)
+- Ctrl-V (paste)
+- Ctrl-Z (undo)
+
 Shortcuts I would like to start using: 
 - Ctrl-A (select all)
 - Win-D (show desktop)
