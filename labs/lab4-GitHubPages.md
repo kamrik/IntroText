@@ -1,7 +1,11 @@
 # Lab week 4 - GitHub Pages and `github.dev` editor
 Material covered during the lecture:
 - Keyboards, touch-typing and keyboard shortcuts
-- Text editors - notepad, vi, VSCode 
+  - Accuracy first, spped later. Practice 15 min every day.  
+  - https://www.reddit.com/r/typing
+  - https://www.ratatype.com/
+  - https://monkeytype.com/
+- Text editors - notepad, vi, [VSCode](https://code.visualstudio.com/download), [Notepad++](https://notepad-plus-plus.org/)
 - Searching in text - wildcards and the basics of regex 
 
 
