@@ -49,6 +49,7 @@ Your screenshot should look similar to this one:
 - The mouse works in a weird way in the terminal, you can't place a cursor using the mouse, but you can select text to copy
 - When you type the password, nothing is shown, not even `*` characters, that's ok
 - Use the Tab key, it may be able to autocomplete the command. E.g. you started typing `less re` and then press Tab, it might autocomplete it to `less readme` if there is a file named readme in the current folder
+- Use the ↑ arrow key to re-run a recent command without re-typing them
 
 ## Commands & features you may find useful
 - `man` - short for "manual", example `man ls` will display help for the `ls` command. To exit the help text press `q`
