@@ -27,9 +27,10 @@ use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) inst
 
 ## Submission
 Run the `date` command while logged into Bandit and submit a screenshot of your terminal.
-Your goal is to reach level 3, the insturctors will mostly guide you there, but feel free to keep going beyond level 3.
+Your goal is to reach level 3, the instructors will mostly guide you there, but feel free to keep going beyond level 3.
 
-![image](https://github.com/user-attachments/assets/4181cd71-2b09-4378-accd-ea675d5ccdd1)
+Your screenshot should look similar to this one:  
+![sumbission screenshot example](img/terminal_bandit.png)
 
 
 
@@ -39,9 +40,22 @@ Your goal is to reach level 3, the insturctors will mostly guide you there, but 
 
 ## Commands & features you may find useful
 - `man` - short for "manual", example `man ls` will display help for the `ls` command. To exit the help text press `q`
-- `ls` - list all files in current directory, to include hidden files use `ls -a`, the `-a` option statnd for "all". `-l` is for long form that includes file sizes.
+- `ls` - list all files in current directory, to include hidden files use `ls -a`, the `-a` option statnds for "all". `-l` is for long form that includes file sizes.
 - `cat` and `less` - both show the content of a text file. To quit from `less` press `q`
 - `cd` - change directory. Examples: `cd labs`, `cd src/projectA/docs`, `cd ..`
+- Command arguments can be quoted, like `cat "file with spaces.txt"`
+- You may need to escape some characters, like `cat file\ with\ spaces.txt` - in this case the space character is escaped using `\`
+
+```
+ __________________
+< Have a good game >
+ ------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
 
 
 
