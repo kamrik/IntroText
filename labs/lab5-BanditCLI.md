@@ -38,7 +38,7 @@ How to run PowerShell terminal on Windows
 
 ## Submission
 Run the `date` command while logged into Bandit and submit a screenshot of your terminal.
-Your goal is to reach level 3, the instructors will mostly guide you there, but feel free to keep going beyond level 3.
+Your goal is to reach level 3, the instructors will guide you there, but feel free to keep going beyond level 3.
 
 Your screenshot should look similar to this one:  
 ![sumbission screenshot example](img/terminal_bandit.png)
@@ -46,7 +46,8 @@ Your screenshot should look similar to this one:
 
 
 ## Using the terminal - general tips
-- The mouse works in a weird way in the terminal, you can't place a cursor using the mouse, but you can select text to copy 
+- The mouse works in a weird way in the terminal, you can't place a cursor using the mouse, but you can select text to copy
+- When you type the password, nothing is shown, not even `*` characters, that's ok
 - Use the Tab key, it may be able to autocomplete the command. E.g. you started typing `less re` and then press Tab, it might autocomplete it to `less readme` if there is a file named readme in the current folder
 
 ## Commands & features you may find useful
