@@ -19,11 +19,22 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 In order to run ssh, open the terminal:
 - MacOS - open Spotlight (usually ⌘-Space) and start typing "terminal" - run it
+  - Or find it in `Applications` -> `Utilities`
 - Windows - Open the ⊞Start menu (Win key) and start typing "Power Shell" - run it
-
+  - running `cmd` or `Terminal` instead of Power Shell may work ok too
+ 
 > [!NOTE]  
 > If you have an old version of Windows that does not include an SSH client, you can 
 use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) instead.
+
+It should look like this in your terminal  
+![Run SSH](img/power_shell_ssh.png)
+
+How to run PowerShell terminal on Windows
+![Run Power Shell](img/start_power_shell.png)
+
+
+
 
 ## Submission
 Run the `date` command while logged into Bandit and submit a screenshot of your terminal.
