@@ -17,7 +17,8 @@ To start Level 0 connect to the game server using SSH on port 2220 using this co
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
-Once you find the password for the next level, save it somewhere and exit by running the `exit` command. You will be back to your local computer prompt. In order to start the next level, log in again with the username of the next level `ssh bandit1@bandit.labs.overthewire.org -p 2220`
+Once you find the password for the next level, save it somewhere and exit by running the `exit` command. You will be back to your local computer prompt. In order to start the next level, log in again with the username of the next level  
+`ssh bandit1@bandit.labs.overthewire.org -p 2220`
 
 ## How to open the terminal
 - MacOS - open Spotlight (usually ⌘-Space) and start typing "terminal" - run it
