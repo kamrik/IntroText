@@ -49,7 +49,8 @@ Your screenshot should look similar to this one:
 
 
 ## Using the terminal - general tips
-- The mouse works in a weird way in the terminal, you can't place a cursor using the mouse, but you can select text to copy
+- The mouse works in a weird way in the terminal, you can't place a cursor using the mouse, user arrow keys and `home` and `end` keys if you have them. Also try the arrow eys with ctrl or alt pressed, the cursor will jump faster.
+- Copying and pasting in terminal might be difficult. In most cases double click a word with a mouse to select it, right-click copes it, right-click again (with nothing selected) will paste it. 
 - When you type the password, nothing is shown, not even `*` characters, that's ok
 - Use the Tab key, it may be able to autocomplete the command. E.g. you started typing `less re` and then press Tab, it might autocomplete it to `less readme` if there is a file named readme in the current folder
 - Use the ↑ arrow key to re-run a recent command without re-typing them
