@@ -10,14 +10,16 @@ The Bandit game helps to learn command line basics.
 
 The game is organized in levels starting at 
 [Level 0](https://overthewire.org/wargames/bandit/bandit0.html),
-on each level your goal is to find the password for the next level.
+on each level your goal is to find the password for the next level. The username used to log in indicates the level. `bandit0` for level 0, `bandit1` for level 1 and so on.
 
 To start Level 0 connect to the game server using SSH on port 2220 using this command. The username and password are both `bandit0`
 ```
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
-In order to run ssh, open the terminal:
+Once you find the password for the next level, save it somewhere and exit by running the `exit` command. You will be back to your local computer prompt. In order to start the next level, log in again with the username of the next level `ssh bandit1@bandit.labs.overthewire.org -p 2220`
+
+## How to open the terminal
 - MacOS - open Spotlight (usually ⌘-Space) and start typing "terminal" - run it
   - Or find it in `Applications` -> `Utilities`
 - Windows - Open the ⊞Start menu (Win key) and start typing "Power Shell" - run it
