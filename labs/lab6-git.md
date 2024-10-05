@@ -36,6 +36,7 @@ View the history of your repository on GitHub. You can do this by clicking on th
 
 Submit the screenshot of the history showing this longer commit message.
 
+How to view history on GitHub:
 ![GitHub history](img/GitHub_history.png)
 
 
