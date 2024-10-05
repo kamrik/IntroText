@@ -17,19 +17,19 @@ Submit:
 1. Link to your GitHub repository
 
 ## Step 1
-- Open the GitHub repository you created in the previous lab.
-- In another tab open it using the in-browser editor we used in [lab 4](lab4-GitHubPages.md), the one you open by replacing `github.com` with `github.dev` in the URL.
-- Create a new file called `cli.md` in the `docs` folder. (you can use other folder and file names if you prefer)
-- Add some content in the file. For example describe what the `ls` and `cat` commands do in the command line interface. Those are the main commands we used in the previous labs.
-- Add a link to this new page in the `README.md` file. It can be as simple as `[CLI commands](docs/cli.md)`.
-- Commit the changes with a meaningful commit message:
-  - Use the first line for a short description of what changed, for example: "Add a page about CLI commands"
-  - Then leave one blank line
-  - Then add a short explanation why this change was made. for example: "This is done as part of lab6".
-- Check that the changes are visible on the website, that you can see snd follow the link and the new page is displayed.
+1. Open the GitHub repository you created in the previous lab.
+1. In another tab open it using the in-browser editor we used in [lab 4](lab4-GitHubPages.md), the one you open by replacing `github.com` with `github.dev` in the URL.
+1. Create a new file called `cli.md` in the `docs` folder. (you can use other folder and file names if you prefer)
+1. Add some content in the file. For example describe what the `ls` and `cat` commands do in the command line interface. Those are the main commands we used in the previous labs.
+1. Add a link to this new page in the `README.md` file. It can be as simple as `[CLI commands](docs/cli.md)`.
+1. Commit the changes with a meaningful commit message:
+    - Use the first line for a short description of what changed, for example: "Add a page about CLI commands"
+    - Then leave one blank line
+    - Then add a short explanation why this change was made. for example: "This is done as part of lab6".
+1. Check that the changes are visible on the website, that you can see snd follow the link and the new page is displayed.
 
 > [!NOTE]
-> This is a common pattern for commit messages, the first line of is a summary of what was changed and the paragraph below explains why. In solo work, the "why" part is often skipped, but it's a good habit to get into. The first line is usually phrased as an imperative sentence, for example "Add a page about CLI commands" other common words that start the first line are "Fix", "Update", "Remove" etc.
+> This is a common pattern for commit messages, the first line is a summary of what was changed and the paragraph below explains why. In solo work, the "why" part is often skipped, but it's a good habit to get into. The first line is usually phrased as an imperative sentence, for example "Add a page about CLI commands" other common words that start the first line are "Fix", "Update", "Remove" etc.
 
 ## Step 2 - explore the history
 View the history of your repository on GitHub. You can do this by clicking on the `Commits` link next to the clock icon - see screenshot below. Note how the extra paragraph on the commit message you added is hidden behind the `...` icon, click on it to see the full message.
