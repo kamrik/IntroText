@@ -7,8 +7,6 @@ GBC COMP-1238 Course - Intro to Data Management.
 
 ## VSCode
 
-## Markdown
-
 ## Git & GitHub
 - [How to Install Git on MacOS using HomeBrew](https://www.youtube.com/watch?v=B4qsvQ5IqWk) - by Code Wizard
 - [Git and GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) - by Kevin Stratvert, CLI based
