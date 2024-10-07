@@ -45,5 +45,5 @@ Make additional changes to your website using a locally installed editor and git
 
 ## Optional challenge 2 - create a branch
 Create a branch named `pub` and change the GitHub Pages source to this branch - see
-[screenshot in lab4](lab4-GitHubPages.md#step-1---enable-github-pages-on-your-repo).
+[screenshot in lab 4](lab4-GitHubPages.md#step-1---enable-github-pages-on-your-repo).
 This way you can work on your website in the `main` branch and only publish your changes by merging them to the `pub` branch. This is a common workflow for maintaining a website. Try to make several changes in the `main` branch and see that they don't appear on the website. Then try merging the changes to the `pub` branch.
