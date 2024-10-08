@@ -44,6 +44,7 @@ How to view history on GitHub:
 Make additional changes to your website using a locally installed editor and git client. For example VSCode and the built-in git client, or vim and the CLI client. You might be able to clone the repo without using a password because the repo is public, but you will need to use your GitHub username and password to push your local changes back to the repository.
 
 
+
 ## Optional challenge 2 - create a branch
 Create a branch named `pub` and change the GitHub Pages source to this branch - see
 [screenshot in lab 4](lab4-GitHubPages.md#step-1---enable-github-pages-on-your-repo).
