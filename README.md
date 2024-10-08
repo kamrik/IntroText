@@ -5,6 +5,8 @@ GBC COMP-1238 Course - Intro to Data Management.
 # Videos and links by subject
 ## Bits, bytes & ASCII
 
+## Markdown
+
 ## VSCode
 
 ## Git & GitHub
