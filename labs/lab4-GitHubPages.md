@@ -96,7 +96,7 @@ Shortcuts I would like to start using:
 - Super-Hyper-Meta-F (I don’t even have such keys, but it sounds impressive)
 ```
 
-## Step 2.3
+## Step 2.3 - Search
 In the .dev editor, create another MarkDown file, for example experiments.md, copy the following text into it:
 
 ````
