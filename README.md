@@ -19,6 +19,8 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 ## VSCode
 - [How to get started with VS Code](https://www.youtube.com/watch?v=EUJlVYggR1Y) - by Kevin Powell
 
+## CLI
+- [Command Line Crash Course For Beginners](https://www.youtube.com/watch?v=uwAqEzhyjtw)
 
 ## Git & GitHub
 - [How to Install Git on MacOS using HomeBrew](https://www.youtube.com/watch?v=B4qsvQ5IqWk) - by Code Wizard
