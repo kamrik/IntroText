@@ -1,5 +1,5 @@
 ## Lecture 5 Summary: Command Line Interfaces  
-Generated from zoom audio transcript by ChatGPT
+Generated from Zoom audio transcript by ChatGPT
    
 ### Introduction to Command Line Interfaces (CLI)  
 - **History and Evolution**:   
