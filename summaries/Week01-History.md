@@ -3,7 +3,7 @@ Generated from Zoom audio transcript by ChatGPT
 
 ## Course Overview  
 - **Instructor**: Mark, experienced in software industry and teaching.  
-- **Course Purpose**: Address gaps in mastery of basic software development tools that often slow students down throut the program.
+- **Course Purpose**: Address gaps in mastery of basic software development tools that often slow students down throughout the program.
 - **Structure**:  
   - Two parts:
     1. Text and Tools
