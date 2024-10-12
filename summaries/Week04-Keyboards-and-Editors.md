@@ -12,7 +12,7 @@ Generated from Zoom audio transcript by ChatGPT
   - Variants like split, vertical, and ortholinear keyboards.  
 - **Layouts**:  
   - QWERTY, AZERTY, Dvorak.  
-- **Modifier Keys**: Control, Shift, Alt, etc.  
+- **Modifier Keys**: modify the behavior of other keys - Control, Shift, Alt etc.
 - **Touch Typing**: Encouraged for efficiency and reduced fatigue.  
    
 ## Text Editors  
