@@ -28,3 +28,9 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 - [GitHub Basics Made Easy: A Fast Beginner's Tutorial!](https://www.youtube.com/watch?v=Oaj3RBIoGFc) - by Skill Foundry
 - [VSCode Git Tutorial (2023)](https://www.youtube.com/watch?v=WAqWUfGIQYI) by Ghost Together
 
+## JSON
+- [json.org](https://www.json.org/json-en.html)
+
+## SQL
+- [How to learn SQL](https://www.youtube.com/watch?v=ITwW825L4zg)
+- History of SQL Databases by Asianometry [part 1](https://www.youtube.com/watch?v=z8L202FlmD4) and [part 2](https://www.youtube.com/watch?v=zSn8il5Mo5s)
