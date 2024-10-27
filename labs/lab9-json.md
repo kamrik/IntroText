@@ -38,7 +38,7 @@ Open
 and type in the data from players.csv manually in JSON format.
 
 Observe how the converter turns green whenever you type in valid JSON. Start from typing in `[]` which is a valid empty JSON array. Start adding objects, one per player, like this:
-```json
+```js
 [
     {
         "name": "James Brown"
@@ -52,7 +52,7 @@ Observe how the converter turns green whenever you type in valid JSON. Start fro
 ```
 
 Store the team info as a sub-object like this:
-```json
+```js
 {   
     "sports": "Basketball",
     "team": {"name":"Raptors", "city":"Toronto"},
@@ -66,7 +66,7 @@ After adding at least 2 players, you can switch to typing on the YAML side, the 
 Create new files, for example `docs/players.json` and `docs/players.yml` copy the JSON and YAML data from the converter.
 
 In the JSON file add comments after each field (of the tennis player only), indicating what data type this field is. Like this:
-```json
+```js
 { 
     "name": "James" // string 
 }
@@ -98,5 +98,4 @@ Note that the file has lots of comments even though it's not part of the standar
 Submit on D2L:
 1. Link to the JSON file in your GitHub repository
 1. Screenshot showing the content of the JSON file in your repo with data type comments visible
-
 
