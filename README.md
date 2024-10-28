@@ -29,6 +29,7 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 - [VSCode Git Tutorial (2023)](https://www.youtube.com/watch?v=WAqWUfGIQYI) by Ghost Together
 
 ## JSON
+- [Structured vs Unstructured Data](https://www.youtube.com/watch?v=lsR8P1LLf2w) (1.5 minute video by Presto Learn)
 - [json.org](https://www.json.org/json-en.html)
 
 ## SQL
