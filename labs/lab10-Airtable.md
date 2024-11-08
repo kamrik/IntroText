@@ -17,7 +17,7 @@ Sign up for the free Airtable account at https://airtable.com/. It does not matt
 - Use the course code like `COMP1238` as the first column of the courses table
 
 - In Assignments table:
-  - Make it has a Due Date column of type date
+  - Make sure it has a Due Date column of type Date
   - Make sure the Course column is of type "Link to Courses"
   - It is recommended that the first column is of type Formula that concatenates the course code with the assignment name. You can use a formula like this: `Course & " - " & Name`. The `&` symbol concatenates (adds) together two strings.
 - In Courses table:
