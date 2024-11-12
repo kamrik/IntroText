@@ -103,10 +103,6 @@ Here are some exercises that help students practice simple `SELECT` statements a
 12. **Assignments Due on a Specific Date**  
     Write a query to find the `title` and `course_id` of assignments due on `2024-10-08`.
 
-    ```sql
-    SELECT title, course_id FROM assignments WHERE due_date = '2024-10-08';
-    ```
-
 13. **Find the Most Recent Completed Assignment**  
     Write a query to find the most recent `due_date` of assignments with a status of "Completed".
 
