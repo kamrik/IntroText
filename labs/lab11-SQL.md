@@ -84,12 +84,11 @@ Here are some exercises that help students practice simple `SELECT` statements a
 3. **Latest Assignment Due Date**  
    Write a query to find the latest assignment due date in the `assignments` table.
 
-  
-4. **Find All Assignments Due in October**  
-   Write a query to display the `title` and `due_date` of assignments due in October 2024. Hint: use `LIKE '2024-10%'`
-
-5. **Assignments Due on a Specific Date**  
+4. **Assignments Due on a Specific Date**  
     Write a query to find the `title` and `course_id` of assignments due on `2024-10-08`.
+
+5. **Find All Assignments Due in October**  
+   Write a query to display the `title` and `due_date` of assignments due in October 2024. Hint: use `LIKE '2024-10%'`
 
 6. **Find the Most Recent Completed Assignment**  
     Write a query to find the most recent `due_date` of assignments with a status of "Completed".
