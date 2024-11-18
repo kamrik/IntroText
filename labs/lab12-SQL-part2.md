@@ -65,6 +65,8 @@ SELECT upper('ABCxyz');
 
 SELECT length('abcde');
 
+SELECT 7*5;
+
 SELECT concat('ABC', '-', 'xyz');
 
 SELECT date();
