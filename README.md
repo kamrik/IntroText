@@ -32,6 +32,27 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 - [Structured vs Unstructured Data](https://www.youtube.com/watch?v=lsR8P1LLf2w) (1.5 minute video by Presto Learn)
 - [json.org](https://www.json.org/json-en.html)
 
-## SQL
-- [How to learn SQL](https://www.youtube.com/watch?v=ITwW825L4zg)
-- History of SQL Databases by Asianometry [part 1](https://www.youtube.com/watch?v=z8L202FlmD4) and [part 2](https://www.youtube.com/watch?v=zSn8il5Mo5s)
+## Databases
+- **SQL**
+  - SQL Subreddit [reddit.com/r/SQL](https://www.reddit.com/r/SQL/)
+  - [How to learn SQL](https://www.youtube.com/watch?v=ITwW825L4zg)
+  - [Learn Basic SQL in 15 Minutes](https://www.youtube.com/watch?v=kbKty5ZVKMY) - by Adam Finer
+  - [Interactive SQL Exercises](https://www.w3schools.com/sql/sql_exercises.asp)
+  - Fast in-depth SQL tutorial using Postgres - [part 1](https://www.youtube.com/watch?v=ipIw-Fp3LBs), [part 2](https://www.youtube.com/watch?v=5t1fW3KG920)
+  - Slower [Intro to SQL Playlist](https://www.youtube.com/watch?v=nWyyDHhTxYU&list=PLi01XoE8jYojRqM4qGBF1U90Ee1Ecb5tt) by Socratica
+- **ERD - Entity Relationship Diagram**
+  - [Diagramming tutorials playlist](https://www.youtube.com/watch?v=xsg9BDiwiJE&list=PLUoebdZqEHTxpGCwKrb82cIvHNoNaBb4R&index=1) from Lucid Chart, the first 2 videos are about ERDs
+- **Theory and history**
+  - [ACID Properties in Databases With Examples](https://www.youtube.com/watch?v=GAe5oB742dw) by ByteByteGo
+  - History of SQL Databases by Asianometry [part 1](https://www.youtube.com/watch?v=z8L202FlmD4) and [part 2](https://www.youtube.com/watch?v=zSn8il5Mo5s)
+ 
+
+## Airtable
+ - [Airtable vs Excel and Google Sheets](https://www.youtube.com/watch?v=RHFvUmptIs0) by Julian Post
+ - [Airtable 2024 - Full Course for Beginners](https://www.youtube.com/watch?v=Hq3rQpodt58) by Julian Post
+ - Airtable alternatives
+   - Notion Databases - less DB features but part of Notion
+   - [NocoDB](https://nocodb.com/) - open source
+   - [BaseRow](https://baserow.io/) - open source
+
+ 
