@@ -130,7 +130,8 @@ Documentation for SQLite built-in functions can be found at https://www.sqlite.o
    
 1. **Assignments with Missing Due Dates:**  
    - Write a query to find all assignments where the `due_date` is missing. Note, there are no assignments with NULL due_dates initially, but one was added if you ran the INSERT statement in the examples above.
-   Hint: `due_date IS NULL`  
+   Hint: `due_date IS NULL`
+   - Make sure you ran the `INSERT ...` from examples in Step 3, otherwise there are no assignments with NULL due_date
    
 
 ## Optional tasks
