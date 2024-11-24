@@ -125,7 +125,8 @@ One point each, but the total grade can't be above 18.
 1. **List the number of assignments per semester**  
    - Write a query that list all semesters along with the number (count) of assignments for courses in that semester.
 
-1. **Show the red component of all the RGB colors**  
+1. **Show the red component of all the RGB colors**
+   - List all the rectangles with RGB colors (those that look like `#abcdef`) and create another column showing only the red component of the color.
    - The red component is the first 2 digits after the `#`. For example, for the color `#a2cb89` the red component is `a2`.
 
 
