@@ -28,7 +28,7 @@ ORDER BY due_date;
 ## Introduction
 This exercise is based on an SQLite database. In addition to the two tables we used in the labs it contains another table that is defined as follows:
 
-```
+```sql
 CREATE TABLE rectangles (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     -- top left corner coordinates
@@ -43,7 +43,7 @@ CREATE TABLE rectangles (
 The `REAL` data type in SQLite is an 8-byte floating point number. For us it means the sizes can be fractional, like 3.25.
 
 The rectangles represent rectangles on the screen. In many computer applications, including in HTML & CSS, coordinates of objects on the screen are given from the top left corner.
-![rectangles](img/rectangles.png)
+<img src="img/rectangles.png" width="400">
 
 Definition and data for the rectangles table can be found in [rectangels.sql](../examples/sql/rectangles.sql)
 
