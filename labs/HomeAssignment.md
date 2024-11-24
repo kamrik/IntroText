@@ -43,6 +43,8 @@ CREATE TABLE rectangles (
 The `REAL` data type in SQLite is an 8-byte floating point number. For us it means the sizes can be fractional, like 3.25.
 
 The rectangles represent rectangles on the screen. In many computer applications, including in HTML & CSS, coordinates of objects on the screen are given from the top left corner.
+
+
 <img src="img/rectangles.png" width="400">
 
 Definition and data for the rectangles table can be found in [rectangels.sql](../examples/sql/rectangles.sql)
