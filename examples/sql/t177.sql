@@ -1,4 +1,5 @@
 -- Create the courses table  
+DROP TABLE IF EXISTS courses;
 CREATE TABLE courses (  
     course_id TEXT PRIMARY KEY,  -- String ID for courses, e.g., "COMP1234"  
     semester TEXT NOT NULL,  -- Semester the course is offered (e.g., "2024-3" for Fall 2024)
@@ -9,6 +10,7 @@ CREATE TABLE courses (
 );  
   
 -- Create the assignments table  
+DROP TABLE IF EXISTS assignments;
 CREATE TABLE assignments (  
     id INTEGER PRIMARY KEY AUTOINCREMENT,  -- Unique ID for each assignment  
     course_id TEXT NOT NULL,  -- Foreign key referencing courses  
@@ -84,6 +86,7 @@ INSERT INTO assignments (course_id, title, status, due_date) VALUES
 ('COMP1234', 'JavaScript Interactive Page', 'Not Started', '2024-10-10'),  
 ('COMP1238', 'SQL Query Assignment', 'Completed', '2024-09-18'),  
 ('COMP1238', 'Data Normalization Task', 'In Progress', '2024-10-08'),  
+('COMP1238', 'Assignment without due date', 'Not Started', NULL),  
 ('MATH1162', 'Calculus Problem Set', 'Completed', '2024-09-12'),  
 ('MATH1162', 'Linear Algebra Quiz', 'Not Started', '2024-10-15'),  
 ('COMM2000', 'Communication Skills Essay', 'In Progress', '2024-09-25'),  
