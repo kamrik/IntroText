@@ -47,7 +47,7 @@ The rectangles represent rectangles on the screen. In many computer applications
 
 <img src="img/rectangles.png" width="400">
 
-- Definition and data for the rectangles table can be found i 
+- Definition and data for the rectangles table can be found in 
   [rectangels.sql](../examples/sql/rectangles.sql)
 - The courses and assignments tables are defined, as before, in
   [t177.sql](../examples/sql/t177.sql)
@@ -120,7 +120,7 @@ One point per question
    Hint: `GROUP BY`
 
 
-## Bonus tasks
+### Bonus tasks
 One point each, but the total grade can't be above 18.
 1. **List the number of assignments per semester**  
    - Write a query that list all semesters along with the number (count) of assignments for courses in that semester.
