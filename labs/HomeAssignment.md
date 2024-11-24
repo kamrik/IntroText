@@ -8,7 +8,6 @@
    - Include your name in the file and on the screenshot
 - DO NOT
   - Do not publish the SQL file on your GitHub 
-  - Do not paste your SQL code into a Word document
 
 
 For exercises that are phrased as questions, include your answer as a comment and then add the query you used to get that answer. Example:
