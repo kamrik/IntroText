@@ -36,7 +36,7 @@ CREATE TABLE rectangles (
     y REAL NOT NULL,
     width REAL NOT NULL,
     height REAL NOT NULL,
-    color TEXT -- css style color
+    color TEXT -- color in a format similar to HTML & CSS
 ); 
 ```
 
@@ -47,14 +47,13 @@ The rectangles represent rectangles on the screen. In many computer applications
 
 <img src="img/rectangles.png" width="400">
 
-Definition and data for the rectangles table can be found in [rectangels.sql](../examples/sql/rectangles.sql)
-
-The courses and assignments tables are defined, as before, in
-[t177.sql](../examples/sql/t177.sql)
-
-Documentation for SQLite built-in functions can be found at https://www.sqlite.org/lang_corefunc.html
-
-Refer to labs 11 and 12 for examples.
+- Definition and data for the rectangles table can be found i 
+  [rectangels.sql](../examples/sql/rectangles.sql)
+- The courses and assignments tables are defined, as before, in
+  [t177.sql](../examples/sql/t177.sql)
+- Documentation for SQLite built-in functions can be found at 
+  https://www.sqlite.org/lang_corefunc.html
+- Refer to labs 11 and 12 for examples.
 
 ## Open the practice database
 It's the same link we used for the labs. The DB file has been updated with new data.
