@@ -3,9 +3,9 @@
 
 ## Submission instructions
 - Submit on D2L
-   - SQL file with all the queries you wrote
+   - Paste all your queries into the textbox when submitting on D2L
    - A screenshot with a query you liked the most, or found the most challenging
-   - Include your name in the file and on the screenshot
+   - Include your name in the screenshot
 - DO NOT
   - Do not publish the SQL file on your GitHub 
 
