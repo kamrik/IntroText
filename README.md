@@ -55,4 +55,9 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
    - [NocoDB](https://nocodb.com/) - open source
    - [BaseRow](https://baserow.io/) - open source
 
- 
+## Date and Time
+- [Daylight Saving Time Explained](https://www.youtube.com/watch?v=84aWtseb2-4) by CGP Grey
+- [Why the International Date Line Looks So Stupid](https://www.youtube.com/watch?v=cpKuBlvef6A) by RealLifeLore
+- [The longitude problem: history's deadliest riddle](https://www.youtube.com/watch?v=3mHC-Pf8-dU)
+- [About Time Documentary 1962](https://www.youtube.com/watch?v=e__emnxC2Gc)
+
