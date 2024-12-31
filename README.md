@@ -23,7 +23,7 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 - [Command Line Crash Course For Beginners](https://www.youtube.com/watch?v=uwAqEzhyjtw)
 - [Bandit - CLI practice game via SSH](https://overthewire.org/wargames/bandit/)
 - Zork - text-based adventure game from 1977
-  - [Play it](https://www.pcjs.org/software/pcx86/game/infocom/zork1/)
+  - [Play the game](https://www.pcjs.org/software/pcx86/game/infocom/zork1/)
   - [YouTube video](https://www.youtube.com/watch?v=HCIesZ1yY_w)
   - [Wikipedia](https://en.wikipedia.org/wiki/Zork)
   
