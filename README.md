@@ -12,6 +12,9 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 - [ratatype.com](https://www.ratatype.com/)
 - [How to Type 3x Faster](https://www.youtube.com/watch?v=tU_AXrvQjpo) by Ali Abdaal
 
+## Fonts
+- [The Story of Fonts](https://www.youtube.com/watch?v=WVfRxFwVHQc) by struthless
+
 ## Representing Text & Numbers in computers
 - [Binary numbers playlist](https://www.youtube.com/watch?v=cJNm938Xwao&list=PLTd6ceoshprcpen2Jvs_JiuvWvqIAkzea)
 - [Once Upon A Punched Card](https://www.youtube.com/watch?v=BlUWg2nxCz0) - historic video by IBM from 1964
