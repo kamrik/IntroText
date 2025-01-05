@@ -32,8 +32,10 @@ Welcome to the Typing Practice Lab! Follow the instructions below to improve you
 Happy Typing! 🖥️✨
 
 
-<img src="img/ratatype.png" height="350">
+<img src="img/ratatype.png" width="500">
 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/QWERTY-home-keys-position.svg" width="500">
 
 ## Optional: Writing Assignment - not for submission
 Write a short document for yourself.
