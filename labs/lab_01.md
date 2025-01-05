@@ -44,6 +44,7 @@ Explain the terms below as you understand them. Don’t Google them, use your ow
 - Downloading
 - URL
 - HTTPS
+
 This document is only for yourself, you may find it fun to re-read some years later. Add a message to future self.
 
 
