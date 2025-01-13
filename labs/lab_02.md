@@ -28,9 +28,8 @@ If you already have a GitHub account skip to the next step.
 ## 2. Accept the Assignment on GitHub Classroom page
  - Open the 
    [assignment invitation link](https://classroom.github.com/a/oUg7dnXT) 
-   in a new tab and accept the assignment.
- - You will need to select your own id/email from the list
- - This will associate your GitHub username with your GBC id/email for the rest of this semester (if you select the wrong one by mistake, email the profs to fix this)
+   in a new tab and accept the assignment
+ - Select your own student id from the list. This will associate your GitHub username with your GBC id for the rest of this semester (if you select the wrong one by mistake, email the profs to fix this)
  - A new repository will be created for you, this repository belongs to the `comp1238w25` organization and the address will look like  
  `github.com/comp1238w25/lab2-username`
 
