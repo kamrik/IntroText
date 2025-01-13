@@ -12,6 +12,8 @@
 - Complete a simple auto-graded assignment in GitHub
 - If done early, practice touch-typing focusing on accuracy rather than speed
 
+![](https://classroom.github.com/assets/classroom-illustration-ae26b292c1f8278b1865d1315c24fd56707467d711a031870536a9ad3aa1aeb2.svg)
+
 ## 1. Create a GigHub Account
 If you already have a GitHub account skip to the next step.
 
