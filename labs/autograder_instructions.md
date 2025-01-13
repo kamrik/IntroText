@@ -10,15 +10,18 @@
 2. **How to Edit and Save Files**  
    
    - **Step 1: Edit the File**  
-     ![Edit file](img/edit_file.png)  
+     <img src="img/edit_file.png" alt="Edit file" style="border: 2px solid black; border-radius: 5px;">
+
    
    - **Step 2: Save Your Changes**  
      Once you’ve made your edits, click the **Commit changes** button.  
-     ![Save file](img/save_file.png)  
+     <img src="img/save_file.png" alt="Save file" style="border: 2px solid black; border-radius: 5px;">
+
    
    - **Step 3: Confirm Save (Commit Changes)**  
      In the pop-up dialog, click the **Commit changes** button again to finalize your save.  
-     ![Save file](img/commit_dialog.png)
+     <img src="img/commit_dialog.png" alt="Save file" style="border: 2px solid black; border-radius: 5px;">
+
 
 3. **Viewing Auto-Grading Results**  
 
@@ -33,11 +36,15 @@
         - Any hints or feedback on potential issues.
      6. Click the `<>Code` tab in the top left corner to go back to file listing if you want to edit the txt file again.
 
-     ![Actions Tab](img/actions1.png)  
+     <img src="img/actions1.png" alt="Actions Tab" style="border: 2px solid black; border-radius: 5px;">
 
 
-     ![Autograder Step](img/actions2.png)
+     
+     <img src="img/actions2.png" alt="Autograder Step" style="border: 2px solid black; border-radius: 5px;">
 
 
      Going back to your files
-     ![Back to code](img/back2code.png)
+     <img src="img/back2code.png" alt="Back to code" style="border: 2px solid black; border-radius: 5px;">
+
+
+     
