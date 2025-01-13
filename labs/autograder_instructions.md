@@ -1,3 +1,10 @@
+<style>
+    .screenshot {
+        border: 2px solid black; 
+        border-radius: 5px;
+    }
+</style>
+
 # Instructions for Auto-Graded Assignments
 
 ## Saving a File to Trigger Auto-Grading  
@@ -9,17 +16,17 @@
 
 ## How to Edit and Save Files
    - **Step 1: Edit the File**  
-     <img src="img/edit_file.png" alt="Edit file" style="border: 2px solid black; border-radius: 5px;">
+     <img src="img/edit_file.png" alt="Edit file" class="screenshot">
 
    
    - **Step 2: Save Your Changes**  
      Once you’ve made your edits, click the **Commit changes** button.  
-     <img src="img/save_file.png" alt="Save file" style="border: 2px solid black; border-radius: 5px;">
+     <img src="img/save_file.png" alt="Save file" class="screenshot">
 
    
    - **Step 3: Confirm Save (Commit Changes)**  
      In the pop-up dialog, click the **Commit changes** button again to finalize your save.  
-     <img src="img/commit_dialog.png" alt="Save file" style="border: 2px solid black; border-radius: 5px;">
+     <img src="img/commit_dialog.png" alt="Save file" class="screenshot">
 
 
 ## Viewing Auto-Grading Results
@@ -35,15 +42,15 @@
         - Any hints or feedback on potential issues.
      6. Click the `<>Code` tab in the top left corner to go back to file listing if you want to edit the txt file again.  
 ---
-<img src="img/actions1.png" alt="Actions Tab" style="border: 2px solid black; border-radius: 5px;">  
+<img src="img/actions1.png" alt="Actions Tab" class="screenshot">  
 
 ---
 
-<img src="img/actions2.png" alt="Autograder Step" style="border: 2px solid black; border-radius: 5px;">
+<img src="img/actions2.png" alt="Autograder Step" class="screenshot">
 
     
 ## Going back to your files
-<img src="img/back2code.png" alt="Back to code" style="border: 2px solid black; border-radius: 5px;">
+<img src="img/back2code.png" alt="Back to code" class="screenshot">
 
 
      
