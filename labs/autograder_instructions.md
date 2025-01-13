@@ -30,9 +30,14 @@
      4. In the workflow details (a black area), locate the `Autograding Reporter` step.  
      5. Review the results displayed in the black area for:  
         - Your final grade.  
-        - Any hints or feedback on potential issues.  
+        - Any hints or feedback on potential issues.
+     6. Click the `<>Code` tab in the top left corner to go back to file listing if you want to edit the txt file again.
 
      ![Actions Tab](img/actions1.png)  
 
 
-     ![Details Panel](img/actions2.png)
+     ![Autograder Step](img/actions2.png)
+
+
+     Going back to your files
+     ![Back to code](img/back2code.png)
