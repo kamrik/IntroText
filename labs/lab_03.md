@@ -24,6 +24,5 @@
  `github.com/comp1238w25/lab3-username`
 
 ## Complete the assignment in your new repository
-- Use the [autograder instructions](autograder_instructions.md) to find your way around your new repo
-- Edit the `README.md` according to instructions from the `Instructions.md` file.
-
+- In your new repository edit the `README.md` according to instructions from the `Instructions.md` file.
+- Use the [autograder instructions](autograder_instructions.md) to find your way around your new repo.
