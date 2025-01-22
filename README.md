@@ -10,6 +10,7 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 - [reddit.com/r/typing](https://www.reddit.com/r/typing/)
 - [keybr.com](https://www.keybr.com/)
 - [ratatype.com](https://www.ratatype.com/)
+- [Entertrained.app](https://entertrained.app/) - Practice typing by retyping famous novels
 - [How to Type 3x Faster](https://www.youtube.com/watch?v=tU_AXrvQjpo) by Ali Abdaal
 
 ## Fonts
