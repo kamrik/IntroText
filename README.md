@@ -8,10 +8,13 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 
 ## Typing
 - [reddit.com/r/typing](https://www.reddit.com/r/typing/)
-- [keybr.com](https://www.keybr.com/)
-- [ratatype.com](https://www.ratatype.com/)
-- [Entertrained.app](https://entertrained.app/) - Practice typing by retyping famous novels
-- [How to Type 3x Faster](https://www.youtube.com/watch?v=tU_AXrvQjpo) by Ali Abdaal
+- [How to Type 3x Faster](https://www.youtube.com/watch?v=tU_AXrvQjpo) - by Ali Abdaal
+- [Learning to Touch Type](https://www.youtube.com/watch?v=IIPU20kekCo) - by Laura Try
+- Typing practice tools
+  - [keybr.com](https://www.keybr.com/)
+  - [ratatype.com](https://www.ratatype.com/)
+  - [monkeytype.com](https://monkeytype.com/)
+  - [entertrained.app](https://entertrained.app/) - Practice typing by retyping famous novels
 
 ## Fonts
 - [The Story of Fonts](https://www.youtube.com/watch?v=WVfRxFwVHQc) by struthless
