@@ -15,6 +15,8 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
   - [ratatype.com](https://www.ratatype.com/)
   - [monkeytype.com](https://monkeytype.com/)
   - [entertrained.app](https://entertrained.app/) - Practice typing by retyping famous novels
+  - [GNU Typist](https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html) - a CLI based practice tool.
+    To install on Ubuntu use `sudo apt install gtypist`
 
 ## Fonts
 - [The Story of Fonts](https://www.youtube.com/watch?v=WVfRxFwVHQc) by struthless
