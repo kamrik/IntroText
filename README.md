@@ -17,6 +17,7 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
   - [entertrained.app](https://entertrained.app/) - Practice typing by retyping famous novels
   - [GNU Typist](https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html) - a CLI based practice tool.
     To install on Ubuntu use `sudo apt install gtypist`
+  - [ttyper](https://github.com/max-niederman/ttyper) - a newer CLI based practice tool written in Rust
 
 ## Fonts
 - [The Story of Fonts](https://www.youtube.com/watch?v=WVfRxFwVHQc) by struthless
