@@ -1,7 +1,7 @@
 # Lab week 4 - GitHub Pages and `github.dev` editor
 ## Material covered during the lecture:
 - Keyboards, touch-typing and keyboard shortcuts
-  - Accuracy first, spped later. Practice 15 min every day.  
+  - Accuracy first, speed later. Practice 15 min every day.  
   - https://www.reddit.com/r/typing
   - https://www.ratatype.com/
   - https://monkeytype.com/
