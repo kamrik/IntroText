@@ -55,6 +55,15 @@ Generated from Zoom audio transcript by ChatGPT
   - Platform for version control and collaboration.  
   - Markdown is used for documentation (`README.md`).  
   - Create accounts with personal emails for longevity.  
+
+## Unicode
+- Similar to ASCII - assigns numbers to characters, but allows for much larger numbers and therefore more characters.
+- While in ASCII the numbers are called "ASCII **codes**", in unicode the name used is "Unicode **codepoints**"
+- In contrast to ASCII there are multiple different ways of converting the codepoints into a binary representation:
+  - UTF-32 simply uses 4 bytes to store the codepoint number of in binary, but this wastes a lot of space because most bytes end up being filled with zeroes.
+  - UTF-8 is identical to ASCII for all the basic characters but uses multiple bytes for codepoints above 127. UTF-8 is by far the most popular encoding on the internet.
+- Unicode codepoints are usually written as hex number with prefix `U+` for example `U+21AA` is the codepoint for this character: ↪  
+Note that the binary representation for this codepoint will be different depending on which encoding is used, but in most cases we use UTF-8.
    
 ## Additional Notes  
 - **Browsers**:  
