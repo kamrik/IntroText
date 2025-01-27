@@ -111,7 +111,7 @@ Go back to the `README.md` file and add a new section near the bottom titled **M
   ```
 
 ## Committing the changes
-The system requires a commit message in the textbox labeled as (2) on the screenshot below. Type anything, in this case something like “Add links file” would be an appropriate commit message. After you commit, Check for autograger output under `Actions`
+The system requires a commit message in the textbox labeled as (2) on the screenshot below. Type anything, in this case something like “Add links file” would be an appropriate commit message. After you commit, Check for autograder output under `Actions`
 
 Modify and commit your files as many times as you need.
 
