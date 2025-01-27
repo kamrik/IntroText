@@ -107,7 +107,7 @@ Go back to the `README.md` file and add a new section near the bottom titled **M
   ```markdown
   ## More Resources
 
-  Check out the [Useful Resources](./links.md) page for useful links.
+  Check out the [Useful Resources](links.md) page for useful links.
   ```
 
 ## Committing the changes
