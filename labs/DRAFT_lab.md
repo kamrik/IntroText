@@ -1,3 +1,5 @@
+# DRAFT - do NOT start
+
 # Lab week 4 - GitHub Pages
 ## Material covered during the lecture:
 - Keyboards, touch-typing and keyboard shortcuts  
