@@ -10,7 +10,7 @@ Follow the assignment invitation link
 https://classroom.github.com/a/Jge9MazW  
 Once your repository is created, edit it following the instructions below.
 
-## Step 2 - Edit your repo using the `github.dev` editor
+## Step 2 - Edit the lab repo using the `github.dev` editor
 
 Open the front page of your repo, and replace the `.com` with `.dev` in the browser address bar. Example:  
 `github.com/comp1238w25/lab4-kamrik/` - .com for repo  
@@ -53,7 +53,7 @@ line
 lines
 line 5
 line-7
-line72
+line72TODO
 line73.4
 end of line
 end-of-line
@@ -111,7 +111,7 @@ Go back to the `README.md` file and add a new section near the bottom titled **M
   ```
 
 ## Committing the changes
-The system requires a commit message in textbox labeled as 2 on the screenshot below. Type anything, in this case something like “Add links file” would be an appropriate commit message. After you commit, Check for autograger output under `Actions`
+The system requires a commit message in the textbox labeled as (2) on the screenshot below. Type anything, in this case something like “Add links file” would be an appropriate commit message. After you commit, Check for autograger output under `Actions`
 
 Modify and commit your files as many times as you need.
 
