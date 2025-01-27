@@ -5,6 +5,9 @@
 - Text editors - notepad, vi, [VSCode](https://code.visualstudio.com/download), [Notepad++](https://notepad-plus-plus.org/)
 - Searching in text - wildcards and the basics of regex 
 
+YouTube Video: [How to get started with VS Code](https://www.youtube.com/watch?v=EUJlVYggR1Y) - by Kevin Powell
+
+
 ## Step 1 - Accept assignment invitation link
 Follow the assignment invitation link  
 https://classroom.github.com/a/Jge9MazW  
