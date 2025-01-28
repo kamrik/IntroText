@@ -1,17 +1,13 @@
 # DRAFT - do NOT start
 
-# Lab week 4 - GitHub Pages
-## Material covered during the lecture:
-- Keyboards, touch-typing and keyboard shortcuts  
-- Text editors - notepad, vi, [VSCode](https://code.visualstudio.com/download), [Notepad++](https://notepad-plus-plus.org/)
-- Searching in text - wildcards and the basics of regex 
+# Home Assignment 1 - GitHub Pages
 
 
 ## Step 1 - Create your own public repo
-In previous labs we edited files in a repository created by GitHub Classroom. In this lab you will need to work with two repositories:
+In the labs so far we edited files in a repository created by GitHub Classroom. In this assignment you will need to work with two repositories:
 
 1. Your own repository, where most of the editing will happen.
-1. The usual GitHub Classroom repo like in the previous labs. With an address like this: `github.com/comp1238w25/lab4-username`. It will be used to tell the autograder where to look for the first repo.
+1. The usual GitHub Classroom repo like in the previous labs. With an address like this: `github.com/comp1238w25/asgn1-username`. It will be used to tell the autograder where to look for the first repo.
 
 
 To create your own repository, go to [github.com](https://github.com) and click the green `New` button. Alternatively you can go directly to [github.com/new](https://github.com/new). Then follow the steps below. Numbers refer to the red circles on the screenshot.
@@ -46,99 +42,22 @@ because the repo is called `notes` and the username is `kamrik`
 
 Congratulations, you have your own website! Let's add some content.
 
-## Step 3 - Edit your website
 
-### Step 3.1 - Explore some keyboard shortcuts
-Edit the README.md file. Add a section listing some 3 keyboard shortcuts you already use frequently (if any) and 3 more shortcuts you would like to start using. Feel free to google for common keyboard shortcuts.
+## Step 3 - Add a `## Links` section in README.md
 
-For example:
-```
-## Keyboard shortcuts
-Shortcuts I frequently use: 
-- Ctrl-C (copy)
-- Ctrl-V (paste)
-- Ctrl-Z (undo)
+Edit the files using whichever tool your prefer - GitHub web UI we used for labs 2 & 3 is also ok.
 
-Shortcuts I would like to start using: 
-- Ctrl-A (select all)
-- Win-D (show desktop)
-- Super-Hyper-Meta-F (I don’t have those keys, but I wish I did)
+Copy the markdown below into this section. Feel free to modify it later, but for now we need some filler text to work with.
+
+```markdown
+## Links
+- [D2L](https://learn.georgebrown.ca)
+- [AtKlass](https://app.atklass.com)
+- [Important Dates](https://www.georgebrown.ca/current-students/important-dates?term=27246&category=131)
 ```
 
-### Step 3.2 - Search
-Copy the Markdown from the block below into your README and while still in the edit mode bring up the search dialog by pressing Ctrl-F
 
-````
-## Search Experiments
-Try searching for the word "line"
-
-```
-Line
-line
-lines
-line 5
-line-7
-line72
-line73.4
-end of line
-end-of-line
-outline
-linear
-```
-````
-
-- Observe how different the search dialog is in edit mode compared 
-  to the usual search dialog of the browser. This is a version of a typical search-and-replace dialog you will see in most text editors.
-- Try searching (Ctrl-F) for the word “line”
-- Try checking each of the checkboxes in the search dialog and see how they affect the search (if at all)
-  - Match Case
-  - Regexp
-  - By Word
-
-
-![search dialog](img/github_search_dialog.png)
-
-Try searching using the following regex patterns. Enable regex search by checking the "Regexp" checkbox, keep the other two unchecked.
-
-- `line\d`
-- `line\d+`
-- `line\d*`
-- `^line`
-- `line$`
-
-
-
-### Step 3.3 - Create a second .md file
-
-Each MarkDown (.md) file will become a page of your website. README.md you edited in the previous steps becomes the main page, but for a real "website experience" we need at least one other page.
-
-- Create another file with a short name like `links.md` (any name is ok, but keep it a single word for this lab)
-
-- In the new file add some links (preferably useful to you). Remember, links in Markdown look link `[text](url)`. Any links are ok, see some examples below the following screenshot.
-
-- Edit your README file and add a link from there to the new .md file. Otherwise you won't be able to access the page corresponding to this new file on your website. A link to a file located in the same repo looks like  
-`[link text](file_name.md)`  
-For example, a link to the autograder instructions looks like  
-`[about autograder](autograder_instructions.md)`  
-and renders as
-[about autograder](autograder_instructions.md)
-
-![screenshot - add file](img/github_add_file.png)
-
----
- Example of compactly formatted links, check the raw MarkDown view of this file
-  - **MS Office:** 
-  [Outlook](https://outlook.office.com/) • 
-  [Teams](https://teams.microsoft.com/v2/) •
-  [OneDrive](https://georgebrowncollege-my.sharepoint.com/) •
-  [Whiteboard](https://app.whiteboard.microsoft.com/)  
-  - **GBC:** 
-  [D2L](https://learn.georgebrown.ca) • 
-  [AtKlass](https://app.atklass.com) • 
-  [Important Dates](https://www.georgebrown.ca/current-students/important-dates?term=27246&category=131)
----
-
-### Step 3.4 - change your website's visual theme
+## Step 4 - change your website's visual theme
 - Create a new file called  `_config.yml` (this exact name)
 - Copy the following 2 lines into it
 
@@ -165,9 +84,51 @@ Experiment with applying any of the following themes. You can remove the `theme`
 - [jekyll-theme-tactile](https://pages-themes.github.io/tactile/)
 - [jekyll-theme-time-machine](https://pages-themes.github.io/time-machine/)
 
+How to add a new file using GitHub web UI:
+![screenshot - add file](img/github_add_file.png)
+
+
+
+## Step 5 - Create another file named `comp1238.md`
+
+Each MarkDown (.md) file will become a page of your website. README.md you edited in the previous steps becomes the main page, but for a real "website experience" we need at least one other page.
+
+### Step 5.1
+Create a file named `comp1238.md`. Refer to the screenshot above or instructions from lab4 on how to add a new file.
+
+
+### Step 5.2
+In the new file add a headings for each of the first 4 weeks and in each section create a bullet list with at least 2 items you think might be worth remembering for the midterm.
+
+For example:
+```markdown
+## Week 1
+- One writing system can be used by many languages
+- Cuneiform looks weird
+- The Epic of Gilgamesh was epic
+## Week 2
+...
+
+```
+
+Feel free to use the [lecture summaries](../summaries/) and add any text and links on top of the required 2 bullet items. 
+
+
+### Step 5.3
+- Edit your README file and add a link from there to the new comp1238.md file. Otherwise you won't be able to access the page corresponding to this new file on your website. A link to a file located in the same repo looks like this:  
+`[link text](comp1238.md)`  
+For example, a link to the autograder instructions looks like  
+`[about autograder](autograder_instructions.md)`  
+and renders as
+[about autograder](autograder_instructions.md)
+
+
+
+
+
 ## Step 4 - Submit your work
 - Follow the assignment invitation link:  
-  https://classroom.github.com/a/L8FlbEbP
+  https://TODO
 - In the new Classroom repo edit the README file and append a link to your site repo at the bottom. The link should look like this:  
 `https://github.com/username/repo_name`  
 - Save - this will trigger the autograder. Check for output under "Actions". Make sure to read the output in the black section.
@@ -179,8 +140,9 @@ Experiment with applying any of the following themes. You can remove the `theme`
 attempt number 42
 https://github.com/username/repo_name
 ```
+
 > - Changes to the GitHub Classroom repo at `github.com/comp1238w25/lab4-username` will trigger the autograder  
-> - Change to the site repo at `github.com/username/repo_name` triggers a rebuild of the website, but NOT the autograder.
+> - Changes to your website repo at `github.com/username/repo_name` trigger a rebuild of the website, but NOT the autograder.
 
 
 ### The autograder will be looking for the following 4 points - 25% each
