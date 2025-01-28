@@ -80,3 +80,37 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 - [The longitude problem: history's deadliest riddle](https://www.youtube.com/watch?v=3mHC-Pf8-dU)
 - [About Time Documentary 1962](https://www.youtube.com/watch?v=e__emnxC2Gc)
 
+## Keyboard shortcuts
+Shortcuts I frequently use: 
+- Ctrl-C (copy)
+- Ctrl-V (paste)
+- Ctrl-X (Cut)
+- Ctrl-Alt-Delete (Task Manager)
+- Alt-F4 (Close application)
+
+Shortcuts I would like to start using: 
+- Ctrl-N (Open new window)
+- Ctrl-W (Close current Window)
+- Ctrl-Tab (Switch open browser tab)
+- WindowsKey-E (Open file explorer)
+
+## Search Experiments
+Try searching for the word "line"
+
+```
+Line
+line
+lines
+line 5
+line-7
+line72TODO
+line73.4
+end of line
+end-of-line
+outline
+linear
+```
+
+## More Resources
+
+Check out the [Useful Resources](links.md) page for useful links.
