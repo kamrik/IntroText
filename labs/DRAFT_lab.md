@@ -125,7 +125,12 @@ and renders as
 [about autograder](autograder_instructions.md)
 
 
-## Step 6 - OPTIONAL - schedule with D2L links
+## Step 6 - Explore repository history
+Go to the root of your repo and click the clock icon under the green "Code" button (see screenshot). This will show the history of all commits (saves) you made. Click on some of the commits to see how they look like. Spend some time exploring the history UI.
+
+![](img/GitHub_history.png)
+
+## Step 7 - OPTIONAL - create a schedule with D2L links
 
 In the README file add your schedule as a nested bullet list, where each course name is a link to the course D2L page. Like this:
 
@@ -136,7 +141,7 @@ In the README file add your schedule as a nested bullet list, where each course 
   - etc
 
 
-## Step 7 - Submit your work
+## Step 8 - Submit your work
 - Follow the assignment invitation link:  
   https://TODO
 - In the new Classroom repo edit the README file and append a link to your site repo at the bottom. The link should look like this:  
