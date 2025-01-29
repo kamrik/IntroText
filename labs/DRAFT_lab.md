@@ -92,13 +92,14 @@ How to add a new file using GitHub web UI:
 ## Step 5 - Create another file named `comp1238.md`
 
 Each MarkDown (.md) file will become a page of your website. README.md you edited in the previous steps becomes the main page, but for a real "website experience" we need at least one other page.
+Feel free to experiment with Emojis 
 
 ### Step 5.1
 Create a file named `comp1238.md`. Refer to the screenshot above or instructions from lab4 on how to add a new file.
 
 
 ### Step 5.2
-In the new file add a headings for each of the first 4 weeks and in each section create a bullet list with at least 2 items you think might be worth remembering for the midterm.
+In the new file add a headings for each of the first 5 weeks and in each section create a bullet list with at least 2 items you think might be worth remembering for the midterm.
 
 For example:
 ```markdown
@@ -111,11 +112,12 @@ For example:
 
 ```
 
-Feel free to use the [lecture summaries](../summaries/) and add any text and links on top of the required 2 bullet items. 
+You may want to use the [lecture summaries](../summaries/) for this.
+Feel free to add any text and links on top of the required 2 bullet items.
 
 
 ### Step 5.3
-- Edit your README file and add a link from there to the new comp1238.md file. Otherwise you won't be able to access the page corresponding to this new file on your website. A link to a file located in the same repo looks like this:  
+Edit the README file to add a link from there to the new comp1238.md file. Otherwise you won't be able to access the page corresponding to this new file on your website. A link to a file located in the same repo looks like this:  
 `[link text](comp1238.md)`  
 For example, a link to the autograder instructions looks like  
 `[about autograder](autograder_instructions.md)`  
@@ -123,10 +125,18 @@ and renders as
 [about autograder](autograder_instructions.md)
 
 
+## Step 6 - OPTIONAL - schedule with D2L links
+
+In the README file add your schedule as a nested bullet list, where each course name is a link to the course D2L page. Like this:
+
+- **Monday**
+  - 13:00 - [COMP1238 - Data Mgmnt](https://learn.georgebrown.ca/d2l/home/334969)
+  - 16:00 - COMP0000 - Not a real course
+- **Tuesday**
+  - etc
 
 
-
-## Step 4 - Submit your work
+## Step 7 - Submit your work
 - Follow the assignment invitation link:  
   https://TODO
 - In the new Classroom repo edit the README file and append a link to your site repo at the bottom. The link should look like this:  
