@@ -1,5 +1,3 @@
-# DRAFT - do NOT start
-
 # Home Assignment 1 - GitHub Pages
 
 
