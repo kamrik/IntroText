@@ -140,10 +140,13 @@ In the README file add your schedule as a nested bullet list, where each course 
 
 ## Step 8 - Submit your work
 - Follow the assignment invitation link:  
-  https://classroom.github.com/a/fnYOmFoM
+  https://classroom.github.com/a/3ltiIQBl
+  
 - In the new Classroom repo edit the README file and append a link to your repo with the site at the bottom. The link should look like this:  
 `https://github.com/username/repo_name`  
+
 - Commit - this will trigger the autograder. Check for output under "Actions". Make sure to read the output in the black section.
+
 - To submit again, make any change in the README, for example
 
 
