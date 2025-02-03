@@ -6,8 +6,8 @@
 ## Step 1 - Create your own public repo
 In the labs so far we edited files in a repository created by GitHub Classroom. In this assignment you will need to work with two repositories:
 
-1. Your own repository, where most of the editing will happen.
-1. The usual GitHub Classroom repo like in the previous labs. With an address like this: `github.com/comp1238w25/asgn1-username`. It will be used to tell the autograder where to look for the first repo.
+1. Your own repository, where most of the editing will happen
+1. The usual GitHub Classroom repo like in the labs, with an address like this: `github.com/comp1238w25/asgn1-username`. It will be used to tell the autograder where to look for the first repo.
 
 
 To create your own repository, go to [github.com](https://github.com) and click the green `New` button. Alternatively you can go directly to [github.com/new](https://github.com/new). Then follow the steps below. Numbers refer to the red circles on the screenshot.
@@ -92,7 +92,6 @@ How to add a new file using GitHub web UI:
 ## Step 5 - Create another file named `comp1238.md`
 
 Each MarkDown (.md) file will become a page of your website. README.md you edited in the previous steps becomes the main page, but for a real "website experience" we need at least one other page.
-Feel free to experiment with Emojis 
 
 ### Step 5.1
 Create a file named `comp1238.md`. Refer to the screenshot above or instructions from lab4 on how to add a new file.
@@ -103,11 +102,11 @@ In the new file add a headings for each of the first 5 weeks and in each section
 
 For example:
 ```markdown
-## Week 1
+## Week 1 - History
 - One writing system can be used by many languages
 - Cuneiform looks weird
 - The Epic of Gilgamesh was epic
-## Week 2
+## Week 2 - Bits and Bytes
 ...
 
 ```
@@ -126,7 +125,7 @@ and renders as
 
 
 ## Step 6 - Explore repository history
-Go to the root of your repo and click the clock icon under the green "Code" button (see screenshot). This will show the history of all commits (saves) you made. Click on some of the commits to see how they look like. Spend some time exploring the history UI.
+Go to the root of your repo and click the clock icon under the green "Code" button (see screenshot). This will show the history of all commits you made. Click on some of the commits to see how they look like. Spend some time exploring the history UI.
 
 ![](img/GitHub_history.png)
 
@@ -143,10 +142,10 @@ In the README file add your schedule as a nested bullet list, where each course 
 
 ## Step 8 - Submit your work
 - Follow the assignment invitation link:  
-  https://TODO
-- In the new Classroom repo edit the README file and append a link to your site repo at the bottom. The link should look like this:  
+  https://classroom.github.com/a/fnYOmFoM
+- In the new Classroom repo edit the README file and append a link to your repo with the site at the bottom. The link should look like this:  
 `https://github.com/username/repo_name`  
-- Save - this will trigger the autograder. Check for output under "Actions". Make sure to read the output in the black section.
+- Commit - this will trigger the autograder. Check for output under "Actions". Make sure to read the output in the black section.
 - To submit again, make any change in the README, for example
 
 
@@ -156,19 +155,22 @@ attempt number 42
 https://github.com/username/repo_name
 ```
 
-> - Changes to the GitHub Classroom repo at `github.com/comp1238w25/lab4-username` will trigger the autograder  
+> - Changes to the GitHub Classroom repo at `github.com/comp1238w25/asgn1-username` will trigger the autograder  
 > - Changes to your website repo at `github.com/username/repo_name` trigger a rebuild of the website, but NOT the autograder.
 
 
-### The autograder will be looking for the following 4 points - 25% each
+### The autograder will be looking for the following points
 
 1. A link to your GitHub repo is provided and looks like this  
   `https://github.com/username/repo_name`  
    - With or without the https:// part is ok  
    - Make sure the user and repo names are yours
-1. Repo pointed to by that link exists and contains a README.md file
-1. That README.md file contains a link to another .md file, formatted as  
-`[some text](file_name.md)`
+1. Repo pointed to by that link exists
+
+1. The README.md file in that repo contains a link to comp1238.md
+
+1. `comp1238.md` file exists and contains titles `## Week 1` ... `## Week 5` with at least 2 lines of text under each title
+    
 1. The website `username.github.io/repo_name` is active 
 
 
