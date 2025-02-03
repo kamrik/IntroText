@@ -1,6 +1,6 @@
 # Lab 5 - learn command line by playing a game
 
-Today we will practice command line basic by playing the 
+Today we will practice command line basics by playing the 
 [Bandit](https://overthewire.org/wargames/bandit/)
 game from 
 [Overthewire Wargames](https://overthewire.org/wargames/)
@@ -8,7 +8,7 @@ collection of games that are designed to teach IT professionals about informatio
 
 The game is organized in levels starting at 
 [Level 0](https://overthewire.org/wargames/bandit/bandit0.html),
-on each level your goal is to find the password for the next level. The username used to log in indicates the level. `bandit0` for level 0, `bandit1` for level 1 and so on.
+on each level your goal is to find the password for the next level. The username used to log into the game indicates the level. `bandit0` for level 0, `bandit1` for level 1 and so on.
 
 To start Level 0 connect to the game server using SSH on port 2220 using this command. The username and password are both `bandit0`
 ```
