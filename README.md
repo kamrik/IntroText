@@ -43,10 +43,12 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
   
 
 ## Git & GitHub
+- [GitHub Basics Made Easy: A Fast Beginner's Tutorial!](https://www.youtube.com/watch?v=Oaj3RBIoGFc) - by Skill Foundry
+- [Quick overview of git terminology with animations](https://www.youtube.com/watch?v=e9lnsKot_SQ)
+- [VSCode Git Tutorial (2023)](https://www.youtube.com/watch?v=WAqWUfGIQYI) by Ghost Together
 - [How to Install Git on MacOS using HomeBrew](https://www.youtube.com/watch?v=B4qsvQ5IqWk) - by Code Wizard
 - [Git and GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) - by Kevin Stratvert, CLI based
-- [GitHub Basics Made Easy: A Fast Beginner's Tutorial!](https://www.youtube.com/watch?v=Oaj3RBIoGFc) - by Skill Foundry
-- [VSCode Git Tutorial (2023)](https://www.youtube.com/watch?v=WAqWUfGIQYI) by Ghost Together
+
 
 ## JSON
 - [Structured vs Unstructured Data](https://www.youtube.com/watch?v=lsR8P1LLf2w) (1.5 minute video by Presto Learn)
