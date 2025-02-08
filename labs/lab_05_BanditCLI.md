@@ -48,13 +48,13 @@ Your goal is to reach level 3, the instructor and the autograder hints will guid
 
 - When you type the password, nothing is shown, not even `*` characters, that's ok
 
-- The mouse works in a weird way in the terminal, you can't place a cursor using the mouse, use the arrow keys and `Home` & `End` keys if you have them. Also try the arrow keys with ctrl or alt pressed, the cursor will jump faster.
+- The mouse works in a weird way in the terminal, you can't place a cursor using the mouse, use the arrow keys as well as `Home` & `End` keys if you have them. Also try the arrow keys with ctrl or alt pressed, the cursor will jump faster.
 
-- Copying and pasting in terminal might be difficult. If you have troubles with the usual Ctrl-C Ctrl-V try using the mouse - you can double click a word with a mouse to select it, right-click copies it to clipboard, right-click again (with nothing selected) will paste it. 
+- Copying and pasting in terminal might be difficult. Practice copying text into the terminal before pasting the passwords. If you have troubles with the usual Ctrl-C Ctrl-V try using the mouse - you can double click a word with a mouse to select it, right-click copies it to the clipboard, right-click again (with nothing selected) will paste it. Might be a middle click instead of right click on some systems. On Linux Ctrl-Shift-C and Ctrl-Shift-V usually work for copying and pasting in the terminal.
 
-- Use the Tab key, it may be able to autocomplete the command. E.g. you started typing `less re` and then press Tab, it will autocomplete it to `less readme` if there is a file named readme in the current folder
+- Use the Tab key, it may be able to autocomplete the command. E.g. you started typing `less re` and then press Tab, it will autocomplete to `less readme` if there is a file named readme in the current folder
 
-- Use the ↑ arrow key to re-run a recent command without re-typing them
+- Use the Arrow Up ↑ key to re-run a recent command without re-typing them
 
 ## Commands & features you may find useful
 - `man` - short for "manual", example `man ls` will display help for the `ls` command. To exit the help text press `q`
