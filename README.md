@@ -35,6 +35,7 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 
 ## CLI
 - [Command Line Crash Course For Beginners](https://www.youtube.com/watch?v=uwAqEzhyjtw)
+- [Is the terminal still worth learning?](https://www.youtube.com/watch?v=PwoD3XxYLII) - by Veronica Explains
 - [Bandit - CLI practice game via SSH](https://overthewire.org/wargames/bandit/)
 - Zork - text-based adventure game from 1977
   - [Play the game](https://www.pcjs.org/software/pcx86/game/infocom/zork1/)
