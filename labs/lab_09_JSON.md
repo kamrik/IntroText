@@ -20,7 +20,7 @@ Explore JSON & YAML:
 
 ## Submission Process
 Follow the assignment invitation link  
-https://classroom.github.com/a/TBD
+https://classroom.github.com/a/2KJlf420
 
 Please save your work in the following two files in the **root directory of your repository**:
 1. `players.json`
