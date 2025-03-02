@@ -4,7 +4,7 @@
 - Structured data
 - JSON and JSON data types
 - YAML
-- Data Serialization and De-serialization
+- Data Serialization and Deserialization
 
 ---
 
@@ -28,7 +28,7 @@ Please save your work in the following two files in the **root directory of your
 
 The autograder script will:
 - Check for a valid `players.json` file.
-- Check for a valid `players.yaml` (or `players.yml`) file with the correct structure.
+- Check for a valid `players.yaml` (or `.yml`) file with the correct structure.
 - Ensure at least 3 players are present in both files.
 - Verify YAML contains comments with relevant keywords (e.g., number, string, null).
 ---
@@ -36,7 +36,7 @@ The autograder script will:
 ## Steps for the Lab
 
 ### Step 1 - Explore the CSV File
-Take a look at [players.csv](players.csv).  
+Take a look at [players.csv](../examples/players.csv).  
 It lists several players from different sports.
 
 CSV stands for 
