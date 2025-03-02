@@ -1,43 +1,65 @@
-# Lab 9 - JSON
+# Lab 9 - JSON and YAML
 
 ## Material covered during the lecture:
 - Structured data
 - JSON and JSON data types
 - YAML
+- Data Serialization and De-serialization
 
-## The goal for today
-Explore JSON & YAML and VSCode command palette:
+---
+
+## The Goal for Today
+Explore JSON & YAML:
 - Convert a simple CSV file to JSON
-- Identify data types in your JSON
-- Use a JSON validator/converter to check the file is compliant with JSON grammar
-- Use VSCode to nicely format the file
+- Add comments in YAML with keywords describing JSON data types (number, string, etc.)
+- Validate JSON and YAML files by parsing them
+- Format files neatly (optional with VSCode)
+- Submit files through GitHub Classroom for automatic grading
 
-If you have VSCode installed locally, clone this repo and perform the tasks locally in VSCode.
+---
 
-Alternatively, you can work using the github.dev editor.
+## Submission Process
+Follow the assignment invitation link  
+https://classroom.github.com/a/TBD
 
+Please save your work in the following two files in the **root directory of your repository**:
+1. `players.json`
+2. `players.yaml` (or `players.yml`)
 
-## Step 1
-Take a look at [players.csv](players.csv). 
+The autograder script will:
+- Check for a valid `players.json` file.
+- Check for a valid `players.yaml` (or `players.yml`) file with the correct structure.
+- Ensure at least 3 players are present in both files.
+- Verify YAML contains comments with relevant keywords (e.g., number, string, null).
+---
+
+## Steps for the Lab
+
+### Step 1 - Explore the CSV File
+Take a look at [players.csv](players.csv).  
 It lists several players from different sports.
-
-`N/A` stands for Not Applicable - in this case because the tennis player has no team. What JSON data type will be useful to describe this?
-
-How many columns and rows do we have in this file?
-
-What other terms are often used instead of the word "row" in this context?
 
 CSV stands for 
 [Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values),
 it's a common format for storing table-like data. 
-GitHub renders the CSV files as a table, but you can see the raw text content by clicking on the `Code` or the `Raw` buttons above the file.
+GitHub renders the CSV files as a table, but you can see the raw text content by clicking either the `Code` or the `Raw` buttons above the file.
 
-## Step 2 - create a JSON version of players.csv
+
+- `N/A` stands for Not Applicable—in this case, because the tennis player has no team. What data type would be appropriate in JSON/YAML to represent this?
+- How many **columns** and **rows** are there in this file? How does the CSV format can be mapped to JSON and YAML?
+
+---
+
+### Step 2 - create JSON & YAML versions of `players.csv`
 Open 
 [this JSON-YAML converter](https://www.bairesdev.com/tools/json2yaml/)
 and type in the data from players.csv manually in JSON format.
 
-Observe how the converter turns green whenever you type in valid JSON. Start from typing in `[]` which is a valid empty JSON array. Start adding objects, one per player, like this:
+> Add a few empty lines at the top of the text boxes to prevent error message pup-up messages from hiding your text.
+
+
+Observe how the converter turns green whenever you type in valid JSON. Start from typing in `[]` which is a valid empty JSON array. 
+Start adding objects, one per player, like this:
 ```js
 [
     {
@@ -60,42 +82,72 @@ Store the team info as a sub-object like this:
 }
 ```
 
-After adding at least 2 players, you can switch to typing on the YAML side, the converter will convert back to JSON. This can save you some typing but YAML tends to be a bit more confusing for beginners.
+After adding some info, you can switch to typing on the YAML side, the converter will convert back to JSON. This can save you some typing but YAML tends to be a bit more confusing for beginners.
 
-## Step 3 - add JSON and YAML files to your GitHub
-Create new files, for example `docs/players.json` and `docs/players.yml` copy the JSON and YAML data from the converter.
+   - The JSON file should start with `[` and end with `]` to indicate a **list (array)** in JSON.
+   - Each row of the CSV should become an **object** in the JSON list.
+   - Store team information as a **sub-object** under the `team` key.
 
-In the JSON file add comments after each field (of the tennis player only), indicating what data type this field is. Like this:
-```js
-{ 
-    "name": "James" // string 
-}
+Example:
+```json
+[
+    {
+        "name": "Lebron James",
+        "sport": "basketball",
+        "position": "forward",
+        "age": 38,
+        "team": {
+            "name": "Lakers",
+            "city": "Los Angeles"
+        }
+    }
+]
 ```
 
-Note that while `// comment` is a valid JavaScript syntax, it is NOT a valid JSON syntax. Unfortunately JSON has no syntax for comments. But many applications do accept JSON with this style of comments, even though it's not part of the standard.
 
-YAML uses `#` for comments, like this
+For the YAML version
+   - Include comments next to several fields in the YAML file. The comment should contain the data type of the field. For example: `age: 38 # number`
+   
+   - The autograder will be looking for at least one of the following words in the comments: `number`, `string`, `null`, `boolean`, `object`, `array`.
+
+Example:
 ```yaml
-# Any text intended for humans, YAML will ignore it
-someKey: someValue # another comment
+# The top-level structure is a list (array)
+- name: Lebron James
+  sport: basketball
+  position: forward
+  age: 38 # number
+  team:
+    name: Lakers
+    city: Los Angeles
+- name: Someone Else
+  sports: Prompt engineering
+  ...
 ```
 
-Commit your changes.
+---
 
-## Step 4
-Experiment with formatting the JSON file using VSCode (or github.dev) auto-formatter.
+### Step 3 (Optional) - Format Your Files with VSCode
+1. Open your files in VSCode (or `github.dev`).
+2. Use the "Format Document" option to format your JSON and YAML files neatly:
+   - Press `Ctrl-Shift-P` (or `Cmd-Shift-P` on Mac) to open the command palette.
+   - Type "Format Document" and run the command.
 
+---
 
+### What the Autograder Checks:
+- **`players.json`:**
+  - Is the file present and correctly named?
+  - Is it valid JSON (parsable)?
+  - Does it contain a top-level list with at least 3 objects?
+  - Does each object have:
+    - Fields like `name`, `sport`, `position`, `age`, and `team`?
+    - A `team` sub-object with `name` and `city` fields?
 
-With the JSON file open, bring up the command palette by pressing `Ctrl-Shift-P` and start typing "Format", find the `Format Document` command and run it. See how the file gets re-formatted. If you see no change, it might be because the file is already formatted exactly the way auto-formatter wants it to be, remove some whitespace and try again.
+- **`players.yaml`:**
+  - Is the file present and correctly named?
+  - Is it valid YAML (parsable)?
+  - Does it contain a top-level list with at least 3 objects?
+  - Are there some comments (`#`) with field data types containing at least one of the following words: `number`, `string`, `null`, `boolean`, `object`, `array`?
 
-Take a look at the VSCode settings file. Open the command palette and start typing "Default Settings", run the following command:  
-`Preferences: Open Default Settings (JSON)`  
-Note that the file has lots of comments even though it's not part of the standard.
-
-
-## Submission instructions
-Submit on D2L:
-1. Link to the JSON file in your GitHub repository
-1. Screenshot showing the content of the JSON file in your repo with data type comments visible
 
