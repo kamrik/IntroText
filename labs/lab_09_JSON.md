@@ -55,7 +55,7 @@ Open
 [this JSON-YAML converter](https://www.bairesdev.com/tools/json2yaml/)
 and type in the data from players.csv manually in JSON format.
 
-> Add a few empty lines at the top of the text boxes to prevent error message pup-up messages from hiding your text.
+> Add a few empty lines at the top of the text boxes to prevent pup-up error message from hiding your text.
 
 
 Observe how the converter turns green whenever you type in valid JSON. Start from typing in `[]` which is a valid empty JSON array. 
@@ -115,9 +115,9 @@ Example:
 # The top-level structure is a list (array)
 - name: Lebron James
   sport: basketball
-  position: forward
-  age: 38 # number
-  team:
+  position: forward  # string
+  age: 38  # number
+  team:  # object
     name: Lakers
     city: Los Angeles
 - name: Someone Else
