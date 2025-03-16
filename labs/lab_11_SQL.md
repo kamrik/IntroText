@@ -21,8 +21,7 @@ If you are curious, this DB was initialized using this file - [t177.sql](../exam
 ## Step 2 - Run some queries to get started
 Run each of the following SELECT queries. Observe the output and try to understand it.
 
-> [!NOTE]
-> To execute the query on sqliteonline.com you can either press `Shift-Enter` on the keyboard or the green triangle play button at the top of the page.
+To execute a query on sqliteonline.com you can either press `Shift-Enter` on the keyboard or click the green triangle `▶ Run` button at the top of the page.
 
 
 ```sql
