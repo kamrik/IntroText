@@ -98,30 +98,30 @@ Documentation for SQLite built-in functions can be found at https://www.sqlite.o
    - Write a query to list all courses, concatenating the `course_name` and `semester` fields with a hyphen between them. Like this:  
    "IT Essentials - 2024-3"
    
-1. **Find Courses with Labs on Fridays:**  
+2. **Find Courses with Labs on Fridays:**  
    - Write a query to find all courses that have a lab session scheduled on Friday. Include only the `course_id`, `course_name`, and `lab_time` in the result.  
+   Hint: use `LIKE`  
    
-1. **Upcoming Assignments:**  
-   - Write a query to list all assignments with a due date after the current date.  
+3. **Assignments due in 2025:**  
+   - Write a query to list all assignments with a due date in 2025.  
    
-1. **Count Assignments by Status:**  
+4. **Count Assignments by Status:**  
    - Write a query to count the number of assignments for each status (e.g., "Not Started", "In Progress", "Completed").  
    Hint: `GROUP BY`
    
-1. **Longest Course Name:**  
+5. **Longest Course Name:**  
    - Write a query to find the course with the longest `course_name`. Use the `length()` function to compare the lengths.  
    Hint: either use `ORDER BY ... DESC` or do it in two steps - first find the length, then the course.
    
-1. **Uppercase Course Names:**  
+6. **Uppercase Course Names:**  
    - Write a query to return a list of all course names in uppercase.  
    
-1. **Assignments Due in September:**  
+7. **Assignments Due in September:**  
    - Write a query to list the titles of all assignments that are due in September, regardless of year. Use the `LIKE` operator to filter `due_date`.
    
-1. **Assignments with Missing Due Dates:**  
-   - Write a query to find all assignments where the `due_date` is missing. Note, there are no assignments with NULL due_dates initially, but one was added if you ran the INSERT statement in the examples above.
+8. **Assignments with Missing Due Dates:**  
+   - Write a query to find all assignments where the `due_date` is missing. Note, there might be no assignments with NULL due_dates initially, but one was added if you ran the INSERT statement in the examples above.
    Hint: `due_date IS NULL`
-   - Make sure you ran the `INSERT ...` from examples in Step 3, otherwise there are no assignments with NULL due_date
-
+   
 
 
