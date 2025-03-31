@@ -1,11 +1,9 @@
-# DRAFT - DON'T START YET
-
 # Home Assignment 2 - SQL part 3
 
 
 ## Submission instructions
 Follow the assignment invitation link  
-TBD
+https://classroom.github.com/a/jqgF6v2b
 
 In the repo created by GtiHub Classroom modify the `queries.sql` file. It will be auto-graded on each commit.
 
