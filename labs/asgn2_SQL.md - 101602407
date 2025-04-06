@@ -103,65 +103,104 @@ SELECT 1970 + unixepoch() / 60. / 60. / 24. / 365.25;
 
 1. **List all the rectangles**  
    - Take a look at the data from the rectangles table.
-
+SELECT id, width FROM rectangles;
 1. **How many rectangles are there?**  
-   
+   SELECT COUNT(*) FROM rectangles;
 1. **What color is the widest rectangle?** 
-
+SELECT color
+FROM rectangles
+ORDER BY width DESC
+LIMIT 1;
 1. **What color is the tallest rectangle?**
-
+SELECT color
+FROM rectangles
+ORDER BY height DESC
+LIMIT 1;
 1. **List all rectangles that are wider than they are tall**
    - That is the width is larger than height
-
+SELECT id, width, height
+FROM rectangles
+WHERE width > height;
 1. **Calculate and select area of each rectangle**
    - Area is `width` times `height` (just in case)
    - Use the `AS` keyword to alias the calculated column, name it `area`
-
+SELECT id, width, (width * height) AS area
+FROM rectangles;
 1. **What color is the largest rectangle?** 
    - Write an SQL query to find the color of the rectangle with the largest area.
-
+SELECT color
+FROM rectangles
+ORDER BY (width * height) DESC
+LIMIT 1;
 1. **What color is the rectangle that extends the most to the right?**
    - Hint: the coordinates of the bottom right corner are  
    `x + width, y + height`
-
+SELECT color
+FROM rectangles
+ORDER BY (x + width) DESC
+LIMIT 1;
 1. **Find rectangle(s) with NULL color**
    - List all the rectangles with color set to NULL
-
+SELECT id, width, height
+FROM rectangles
+WHERE color IS NULL;
 1. **List all the different colors**
    - Without duplicates
-
+SELECT DISTINCT color
+FROM rectangles;
 1. **List all the different _named_ colors**
    - Without duplicates
    - Do not include NULL
    - Named colors are colors like `red` as opposed to RGB colors that look like `#abcdef`
-   
+   SELECT DISTINCT color
+FROM rectangles
+WHERE color IS NOT NULL
+  AND color NOT LIKE '#%';
 1. **List rectangle colors in upper case letters**
    - Like this `RED` or `#FF12B2`
-
+SELECT UPPER(color) AS color_uppercase
+FROM rectangles;
 1. **What is the course_id of the course with the longest name?**
-
+SELECT course_id
+FROM courses
+ORDER BY LENGTH(course_name) DESC
+LIMIT 1;
 1. **How many assignments are there with due dates in 2024?**
-
+SELECT COUNT(*)
+FROM assignments
+WHERE due_date BETWEEN '2024-01-01' AND '2024-12-31';
 1. **Concatenate Course ID and name:**  
    - Write a query to list all courses, concatenating the `course_id` and `course_name` fields with a colon and a space between them. Like this:   
    "COMP1151: IT Essentials"
-   
+   SELECT CONCAT(course_id, ': ', course_name) AS course_info
+   FROM courses;
 1. **List courses with Labs on Mondays:**  
    - Write a query to list all courses that have a lab session scheduled on Monday.
-   
+   SELECT course_id, course_name
+   FROM courses
+   WHERE lab_time LIKE 'Mon%';
 1. **Assignments due before specific date:**  
    - Write a query to list all assignments with a due date before January 1st, 2025.  
-   
+   SELECT *
+   FROM assignments
+   WHERE due_date < '2025-01-01';
 1. **How many assignments are there for each course:**  
    - Write a query to count the number of assignments for each course.  
    Hint: `GROUP BY`
-
+SELECT course_id, COUNT(*) AS assignment_count
+FROM assignments
+GROUP BY course_id;
 1. **List all assignments for courses that ran in semester `2024-3`**  
    - Write a query that lists all assignments belonging to courses where the semester is set to `2024-3` (fall 2024)
-
+SELECT a.*
+FROM assignments a
+JOIN courses c ON a.course_id = c.course_id
+WHERE c.semester = '2024-3';
 1. **Show the red component of all the RGB colors**
    - List all the rectangles with RGB colors (those that look like `#abcdef`) and create another column showing only the red component of the color.
    - The red component is the first 2 digits after the `#`. For example, for the color `#a2cb89` the red component is `a2`.
 
-
+SELECT color, SUBSTRING(color, 2, 2) AS red_component
+FROM rectangles
+WHERE color LIKE '#%';
 
