@@ -63,8 +63,9 @@
         *   2016: Article shows the problem persists, specifically mentioning Excel's default settings. Awareness is growing but not universal.
         *   2020: Article "Gene name errors: lessons not learned" indicates the problem is still widespread. The scientific community decides it's easier to *rename the genes* than to get everyone to use the correct spreadsheet settings. This is a significant effort (maintaining old/new names, updating literature).
         *   2023: Microsoft adds an *opt-in* toggle in Excel (Windows/macOS) to disable automatic data conversion.
-    *   Lesson: Highlights the significant influence of spreadsheets on various fields and how persistent even seemingly simple problems can be. Reinforces that spreadsheets are not going away, even for people using programming languages like Python.
+    *   Lesson: Highlights the significant influence of spreadsheets on various fields and how persistent even seemingly simple problems can be. Spreadsheets are not going away, even for people using programming languages like Python.
 
+### Airtable
 *   **Introduction to Airtable:**
     *   Introduce Airtable as a hybrid tool, combining aspects of spreadsheets and databases.
     *   Note its visual similarity to spreadsheets upon opening.
@@ -137,29 +138,30 @@
     *   Use case 1: As a backend for custom web applications (e.g., built with JavaScript/React). Often happens when an Airtable base grows organically and needs a more tailored interface. Advantage: The backend already exists ("0 effort backend"), no need to migrate data immediately, allows users to continue using Airtable if they prefer.
     *   Use case 2: Automation and data sharing between departments/systems. One department uses Airtable, another needs to access its data automatically using the API, even if they use different software. This is a fairly common use case.
 
-*   **Other Similar Tools:**
-    *   Mention other tools in the same space: No-code DB, BaseRow. Note they are similar and some offer self-hosting options (requires Docker knowledge).
-    *   Mention Notion: Its database feature provides very similar functionality to Airtable databases.
-
-*   **History of Database + UI Tools:**
-    *   Reiterate that Airtable's concept (database tightly coupled with a user-friendly interface) is not entirely new.
-    *   **dBase:** Extremely popular in the 1980s, combined database functionality with tools for building user interfaces.
-    *   **FoxBase / FoxPro:** Inspired by dBase, acquired by Microsoft. Mention seeing it used in accounting departments for payroll, inventory etc. Note it ran on PCs, used text-mode interfaces (which were very fast).
-    *   **Microsoft Access:** Appeared in 1992, part of Microsoft Office. Largely replaced FoxPro. Still used by a significant number of professional developers (~3.5% in a recent survey). Describe it as an "unloved child" of Microsoft, perhaps intentionally limited to avoid competing with more expensive products like SQL Server. Historically had collaboration issues when used locally. Basic logic similar to Airtable.
-
-*   **Modern No-code/Low-code Landscape:**
-    *   Describe the current wave of tools: Airtable, Bubble (web apps), Adalo (mobile apps), Notion, Webflow (websites), etc. Show a graphic with logos if available.
-    *   Contrast with a previous wave: RAD (Rapid Application Development) tools like Access and Visual Basic. Note that some concepts from this era are now integrated into modern development environments (.NET UI).
-    *   Discuss the ongoing debate about no-code/low-code: Some love it, some hate it, some see it as just another tool.
-    *   Highlight the core trade-off: Speed of development vs. Flexibility and Control.
-    *   Mention the "complexity wall": Both no-code tools and traditional coding projects eventually hit limits on complexity. Managing complexity is key in both scenarios.
-
 *   **Airtable Backups and Export:**
     *   Address the question of backups. Note it can be a challenge. Paid Airtable accounts often offer better backup options.
     *   Mention "Revisions": Airtable keeps a history of record changes, allowing rollback (like Google Docs history). This is a partial replacement for full backups.
     *   Show how to export data: Explain that individual views (like the Grid view) can often be downloaded as CSV files (demonstrate finding the "Download CSV" option in the view menu).
     *   Mention third-party services that specialize in synchronizing Airtable data to other databases or providing more robust backup solutions, sometimes offering near "live" sync.
 
+*   **Other Similar Tools:**
+    *   Open source: NocoDB, BaseRow.
+    *   Notion: Its database feature provides similar functionality to Airtable databases.
+
+*   **History of Database + UI Tools:**
+    *   Reiterate that Airtable's concept (database tightly coupled with a user-friendly interface) is not entirely new.
+    *   **dBase:** Extremely popular in the 1980s & 90s, combined database functionality with tools for building user interfaces.
+    *   **FoxBase / FoxPro:** Inspired by dBase, acquired by Microsoft. Was often used in accounting departments for payroll, inventory etc. Ran on PCs, used text-mode interfaces (which were very fast).
+    *   **Microsoft Access:** Appeared in 1992, part of Microsoft Office. Largely replaced FoxPro. Still used by a significant number of professional developers (~3.5% in a recent Stack Overflow survey). Microsoft didn't promote Access much, perhaps intentionally, to avoid competing with more expensive products like SQL Server. Historically had collaboration issues when used locally. Basic logic similar to Airtable.
+
+*   **Modern No-code/Low-code Landscape:**
+    *   Describe the current wave of tools: Airtable, Bubble (web apps), Adalo (mobile apps), Notion, Webflow (websites), etc. Show a graphic with logos if available.
+    *   Contrast with a previous wave: RAD (Rapid Application Development) tools like Access and Visual Basic. Note that some concepts from this era are now integrated into modern development environments (.NET UI).
+    *   Discuss the ongoing debate about no-code/low-code: Some love it, some hate it, some see it as just another tool.
+    *   Highlight the core trade-off: Speed of development vs. Flexibility and Control.
+    *   Mention the "complexity wall": Both no-code tools and traditional coding projects eventually hit limits on complexity, but no-code tools often hit it sooner. Managing complexity is key in both scenarios.
+
+
 *   **Conclusion:**
-    *   Summarize the key takeaways: Spreadsheets are powerful, widely used tools with a long history. Airtable represents a modern evolution, bridging spreadsheets and databases, providing an accessible way to build structured, relational systems. Understanding these tools is valuable for developers.
-    *   Encourage students to engage with the lab to get hands-on experience with Airtable.
+    *   Spreadsheets are powerful, widely used tools with a long history. Airtable represents a modern evolution, bridging spreadsheets and databases, providing an accessible way to build structured, relational systems. Understanding these tools is valuable for developers.
+    *   Encourage students to engage with Airtable for their own use like keeping a list of tasks or assignments.

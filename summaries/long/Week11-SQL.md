@@ -2,63 +2,60 @@
 
 ## Introduction to Databases
 
-*   Starts by defining a database broadly: an organized collection of information for easy storage, management, updating, and retrieval.
+*   Broad definition, database is an organized collection of information for easy storage, management, updating, and retrieval.
 *   Illustrates the concept with non-software examples:
     *   Old-style physical card catalog: Organized for quick retrieval and updates (adding/removing/editing cards). Limited in data type but efficient for its purpose.
     *   Old-style phone book: Optimized for retrieval (alphabetical). Very difficult to modify (requires re-publishing).
-    *   Toronto Archives building: A large, complex physical database for retrieval.
-*   Transitions to software databases, often called Database Management Systems (DBMS). Notes the wide variety of systems available.
+    *   Toronto Archives building near the Casa Loma campus: A large, complex physical database for retrieval.
+*   Transition to software databases, often called Database Management Systems (DBMS). 
 
 ## Types of Databases and the Landscape
 
-*   Mentions the diversity of database systems, referencing the Stack Overflow Developer Survey.
-*   Highlights that most databases, and the focus of the course, are **Relational Databases (RDBMS)**.
-*   Explains that RDBMS look like tables (similar to Airtable seen previously).
-*   Points out the top databases from the survey: Postgres, MySQL, SQLite (all open source), Microsoft SQL Server (popular commercial), Oracle, MariaDB.
-*   Notes that the top relational databases often have "SQL" in their name, as SQL is the standard language for relational databases.
-*   Mentions MariaDB is a fork/copy of MySQL, often considered more open source. Together, MySQL and MariaDB are very popular.
-*   Notes Oracle's historical significance in the corporate world, though its popularity has declined.
-*   Stresses the abbreviation **RDBMS** (Relational Database Management System) as very common.
+*   Mention the diversity of database systems, referencing the Stack Overflow Developer Survey.
+*   Highlight that most common databases, and the focus of this course, are **Relational Databases (RDBMS)**.
+*   RDBMS use tables similar to Airtable.
+*   Top databases from the survey: Postgres, MySQL, SQLite (all open source), Microsoft SQL Server, Oracle (commercial).
+*   Relational databases often have "SQL" in their name, as SQL is the standard language for relational databases.
+*   MariaDB is a fork/copy of MySQL, often considered more open source. Together, MySQL and MariaDB are very popular.
+*   Note Oracle's historical significance in the corporate world, though its popularity has declined.
 
 ## History of Relational Databases and SQL
 
-*   Emphasizes the importance of history for understanding the field.
 *   Key figure: **Edgar Codd** (worked at IBM around 1970).
     *   Published a foundational paper: "A Relational Model of Data for Large Shared Data Banks."
     *   Awarded the Turing Award in 1981 for his work on databases (equivalent to a Nobel for computer science).
-*   Discusses the development stemming from Codd's ideas:
+*   Developments stemming from Codd's ideas:
     *   IBM System R (IBM research project).
     *   Berkeley Ingres (UC Berkeley research project).
-    *   Notes that many modern systems derive from Ingres, including Postgres (name derived from "post-Ingres"), Sybase, and Microsoft SQL Server.
-*   Provides a timeline:
+    *   Many modern systems derive from Ingres, including Postgres (name derived from "post-Ingres") and Microsoft SQL Server (via Sybase).
+*   Timeline:
     *   Started around the 1970s.
     *   Main players largely stabilized by 1995.
-    *   The field is nearly 50 years old and well-established, relatively slow-moving.
+    *   The field is nearly 50 years old and well-established, relatively slow-moving. But there is a new wave of cloud RDBMSs
     *   SQL language was standardized in the 1980s.
 *   Implications of the age and standardization:
     *   Lots of good, relevant learning material available online and in older books.
     *   ChatGPT is very good at SQL due to the vast amount of online data.
 *   Another key figure: **Michael Stonebreaker** (part of the Berkeley Ingres team).
     *   Also won a Turing Award (2013). Mentioned his Turing lecture is available online.
-*   Discusses the origins of MySQL and MariaDB:
+*   Origins of MySQL and MariaDB:
     *   Founded by **Michael Widenius** (from Finland).
     *   Interestingly, named databases after his daughters (MariaDB after younger daughter Maria, MySQL after older daughter My).
-    *   Explains the fork: MySQL was acquired by Sun Microsystems, then Sun was acquired by Oracle. A conflict arose regarding the open-source nature, leading the original team to fork the project and create MariaDB. MariaDB is seen as the more open-source version, MySQL the more corporate, but they are very similar.
+    *   Explain the fork: MySQL was acquired by Sun Microsystems, then Sun was acquired by Oracle. A conflict arose regarding the open-source DB being controlled by the largest commercial DB, leading the original team to fork the project and create MariaDB. MariaDB is seen as the more open-source version, MySQL the more corporate, but they are very similar.
 
 ## How Applications Interact with Databases
 
-*   Presents the standard architecture: A web server (application logic) communicates with a separate database server (data storage).
-*   Explains that both the application (web server) and a developer/administrator can communicate with the database server.
-*   The communication language is **SQL**. Queries are sent to the database, and results are returned.
-*   Contrasts this with tools like Airtable or Microsoft Access, which combine the database and the user interface. Most database servers are "faceless" and require separate tools or applications to interact with them.
+*   Most common architecture: A web server (application logic) communicates with a separate database server (data storage).
+*   Both the application (web server) and a developer/administrator can communicate with the database server.
+*   The communication language is **SQL**.
+*   Contrast this with tools like Airtable or Microsoft Access, which combine the database and the user interface. Most database servers are "faceless" and require separate systems to act as GUI.
 
 ## Why Learn SQL?
 
-*   Reiterates its high popularity, citing the Stack Overflow survey where it's consistently in the top 3 alongside Javascript and HTML.
-*   Explains that while most developers don't write SQL full-time, it's one of the most popular *secondary* languages.
-*   Argues that regardless of development area (web, mobile, data analysis, etc.), interacting with a database is common, making SQL essential.
-*   Highlights its value even for non-developers (managers, analysts) who need to retrieve data independently.
-*   Notes that the basics are easy to learn, and the core set of commands needed for everyday development is small.
+*   SQL is widely used, according to the Stack Overflow survey it's consistently in the top 3 languages alongside Javascript and HTML. Most developers don't write SQL full-time, it's one of the most popular *secondary* languages.
+*   Regardless of development area (web, mobile, data analysis, etc.), interacting with a database is common, making SQL essential.
+*   SQL is valuable even for non-developers (managers, analysts) who need to retrieve data independently.
+*   The basics are easy to learn, and the core set of commands needed for everyday development is small.
 
 ## SQL Basics and Demonstration Setup
 
@@ -122,18 +119,15 @@
 
 ## Resources
 
-*   Recommends the SQL Subreddit for questions and discussions.
-*   Strongly recommends the linked 15-minute YouTube tutorial series ("SQL in 15 Minutes"). Notes it covers basics well and has continuations.
-*   Lists links to history videos (Edgar Codd, Michael Stonebreaker, Michael Widenius/MySQL).
+*   r/SQL Subreddit for questions and discussions.
+*   YouTube tutorial series ("SQL in 15 Minutes").
+*   Links to history videos (Edgar Codd, Michael Stonebreaker, Michael Widenius/MySQL).
 
 ## Lab Overview
 
-*   Briefly describes the lab exercise: Using `sqliteonline.com` with the same database.
+*   Briefly describe the lab exercise: Using `sqliteonline.com` with the same database.
 *   Tasks involve running pre-written queries to see how they work and then writing some basic `SELECT` queries based on requirements.
-*   Submission is a screenshot of one query result and a text file containing the written queries.
-*   Encourages students to type the queries manually rather than just copying/pasting to aid learning.
+*   Encourage students to type the queries manually rather than just copying/pasting to aid learning.
 
 ## Conclusion
-
-*   Recaps that the demonstration covered most SQL needed for average developer tasks.
-*   Acknowledges that feeling lost is normal; hands-on practice in the lab is crucial for learning.
+*   Feeling lost is normal; hands-on practice will make it feel simpler.

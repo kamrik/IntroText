@@ -11,7 +11,7 @@
     *   Relevant in many fields beyond software:
         *   *Mechanical Engineering:* Critical for managing blueprints (expensive to machine the wrong version). Need to track parts for different product versions (e.g., car models).
         *   *Legal Documents:* Managing text versions and tracking changes is essential.
-    *   Software is relatively lucky: Text files are easier for computers to compare than complex blueprints.
+    *   Software developers are relatively lucky: Text files are easier for computers to compare than complex blueprints.
 
 *   **Comparing Differences (Diff):**
     *   Even small text file differences can be hard for humans to spot manually.
@@ -29,8 +29,10 @@
     *   Linus Torvalds (creator of Linux kernel, started as a university homework project in Finland) developed Git.
     *   Around the year 2000, Linux kernel developers (working on a large codebase, ~10 million lines then, ~25 million now) would email patch files to each other to share changes.
     *   Transferring the whole source code was difficult (large size, limited email attachments), but patches were small.
-    *   This email-based workflow was inconvenient and led to confusion. Linus was reportedly frustrated with existing commercial VCS and decided to write his own.
-    *   Git was created by Linus in April 2005.
+    *   This email-based workflow was inconvenient
+    * Linux kernel switched to using a commercial system called BitKeeper 
+    * After a conflict with BitKeeper Linus decided to write his own.
+    * Git was created in April 2005.
 
 *   **Git vs. GitHub:**
     *   *Git:*
@@ -120,20 +122,16 @@
     *   *Cost:* While cheap for the computer, managing too many branches is complex and confusing for humans. It's generally best to minimize the number of active branches.
     *   Developers can easily switch between branches (`git checkout`/`git switch`) to work on different tasks or versions.
 
-*   **Bonus Tip: Command Palette UI Pattern:**
+*   **Command Palette UI Pattern:**
     *   A UI pattern where typing into a search box reveals and allows execution of commands or actions (e.g., macOS Spotlight, Windows Start Menu search).
     *   Common in development tools:
         *   *VS Code:* `Ctrl+P` (file quick open), `Ctrl+Shift+P` (command palette for all commands).
         *   *Windows Terminal:* `Ctrl+Shift+P` (command palette for terminal settings/actions).
     *   Similar to command line in that you type to find functionality, but provides immediate visual suggestions and executes actions directly in the GUI.
 
-*   **Bonus Tip: Debugging GitHub Pages:**
+*   **Assignment note: Debugging GitHub Pages:**
     *   If your GitHub Pages site isn't updating after pushing changes, check the "Actions" tab in your GitHub repository online.
     *   Look for workflow runs (often triggered by pushes to the main branch) that are marked red (failed).
     *   Click into the failed workflow run, then click on the failing job/step (also often red).
     *   Read the build logs for error messages (e.g., "theme not found" indicates a typo in the theme name in the `_config.yml` file).
 
-
-*   **Next Steps:**
-    *   The upcoming lab will provide hands-on practice with Git/GitHub workflow, likely focusing on the web interface initially, but local cloning is also an option for practice.
-    *   Topics like merging and resolving conflicts are more advanced and can be explored with external resources (e.g., online tutorials).

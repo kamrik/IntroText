@@ -108,14 +108,15 @@
 **Binary Serialization Formats**
 
 *   Contrast text-based formats (JSON, YAML) with **Binary Formats**.
-*   Explain that text formats can be wasteful (e.g., repeating key names like "title" many times in an array of objects) and slower to parse.
+*   Text formats can be wasteful (e.g., repeating key names like "title" many times in an array of objects) and slower to parse.
 *   Binary formats are optimized for space efficiency and processing speed by computers, not for human readability.
-*   *Historical Context:* Mention older binary formats like C structs, where developers manually defined the byte layout. Note the difficulty in working with them and managing version changes.
-*   Mention a modern popular binary format example: gRPC using Protobufs (Protocol Buffers). Note that they are less likely to encounter this soon but should recognize the terms.
+*   *Historical Context:* binary used to be the main option because memory, storage and network were very expensive.
+*   Optionally mention gRPC as an example of a modern binary serialization format.
+
 
 **Lab Introduction & Demonstration**
 
-*   Explain the lab goal: Convert simple tabular data (in CSV format) into JSON and YAML.
+*   Lab goal: Convert simple tabular data from CSV format into JSON and YAML.
 *   Introduce CSV (Comma Separated Values) as a simple format for tables. Show an example (the fictional sports data).
 *   Demonstrate using an online **JSON/YAML converter tool**.
     *   Show typing YAML on one side and seeing JSON appear on the other, and vice-versa.

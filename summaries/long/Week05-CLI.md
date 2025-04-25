@@ -4,7 +4,7 @@ This lecture introduces students to the command-line interface, its history, fun
 
 ## Recap of Previous Weeks
 
-*   Briefly touch upon previous topics:
+*   Subjects covered in the previous weeks:
     *   History and structure of text/numbers before computers.
     *   Bits, bytes, ASCII encoding.
     *   Importance of mastering the keyboard (touch typing practice).
@@ -19,14 +19,15 @@ This lecture introduces students to the command-line interface, its history, fun
 
 ## History of CLIs
 
-*   **Early Days:** The *only* way to interact with computers.
+*   **Early Days:** CLI was the *only* way to interact with computers.
 *   **Teletype Machines:** Connected printers and keyboards to computers.
     *   Operator typed a command.
     *   Command was printed on paper.
     *   Computer processed and printed the reply on paper.
     *   This was a direct command-reply dialogue.
-    *   Commands were often shortened (2-3 letters) for efficiency, leading to cryptic names today.
-*   **TV Screens (Virtual Terminals):** As TVs became cheaper, screens replaced paper printers.
+    *   Commands were often shortened (2-3 letters) for efficiency, leading to cryptic command names today.
+
+*   **TV Screens (Virtual Terminals):** As TVs became widespread, screens replaced paper printers.
     *   Huge saving on paper.
     *   More convenient (see what you type, easy correction).
     *   Mode of operation remained the same: type command, get text reply.
@@ -47,12 +48,12 @@ This lecture introduces students to the command-line interface, its history, fun
 ## Why Use the CLI? (Advantages)
 
 *   **Functionality:** Some tools or features are *only* available via CLI (cheaper/easier to build CLI tools than GUI).
-*   **Speed:** Much faster for certain types of work (e.g., file manipulation, automation).
+*   **Speed:** Much faster for certain types of work.
 *   **Precise Control:** Allows specifying details down to the tiniest level.
 *   **Automation:** Commands are lines of text. Can easily create scripts (text files of commands) to automate repetitive tasks.
 *   **Remote Work (SSH):** Works extremely well over networks, even slow ones, due to low bandwidth requirements (sending text commands and receiving text replies).
-*   **Low Resource Usage:** Doesn't require graphical rendering, less demanding on the computer.
-*   **Looks Cool:** (Optional, humorous point)
+*   **Low Resource Usage:** Doesn't require graphical rendering, less demanding on the computer and can therefore be used to control tiny devices.
+*   **Looks Cool**
 
 ## SSH (Secure Shell)
 
@@ -117,7 +118,8 @@ This lecture introduces students to the command-line interface, its history, fun
         cat readme
         ```
 *   **Tab Completion:** Emphasize using the `Tab` key to autocomplete commands and filenames. Saves typing, reduces errors.
-*   **Copy/Paste:** Mention it can be finicky due to historical reasons (`Ctrl+C` often being interrupt). On Windows terminals, selecting text often copies, and right-click often pastes. Mac/Linux terminals might use `Cmd+C`/`Cmd+V` or `Ctrl+Shift+C`/`Ctrl+Shift+V` depending on configuration.
+*   **Copy/Paste:** Mention it can be finicky due to historical reasons (`Ctrl+C` often being the keyboard interrupt). On Windows terminals, selecting text often copies, and right-click often pastes. Mac/Linux terminals might use `Cmd+C`/`Cmd+V` or `Ctrl+Shift+C`/`Ctrl+Shift+V` depending on configuration.
+
 *   **Solving Level 0:** Use `cat readme` to display the password. Copy the password.
 *   **Exiting:** Use `exit` to disconnect from the SSH session.
 *   **Connecting to Level 1:** Change the username in the SSH command: `ssh bandit1@server_address`. Paste the password obtained from Level 0.
@@ -130,18 +132,16 @@ This lecture introduces students to the command-line interface, its history, fun
         *   Spotlight Search (`Cmd + Space`) -> Type "Terminal" -> Enter.
         *   Applications -> Utilities -> Terminal.
     *   **Windows:**
-        *   Start Menu -> Search bar -> Type "Cmd", "Powershell", or "Terminal".
-        *   **Powershell** is generally recommended for modern Windows.
-        *   **Cmd** (Command Prompt) is the older version.
-        *   **Windows Terminal** is a newer, customizable application that can host Powershell, Cmd, WSL, etc.
+        *   Start Menu -> Search bar -> Type "Terminal", "Cmd" or "Powershell".
     *   Mention **Putty** as a third-party alternative, especially for older Windows versions or if built-in options are problematic. It's a simple SSH client.
+
 
 ## Windows Subsystem for Linux (WSL)
 
 *   Allows running a Linux environment (like Ubuntu) directly within Windows.
 *   **Benefit:** Get the advantages of Linux command-line tools and development environments while still using Windows GUI applications.
-*   Often preferred for certain types of development (e.g., web development with Node.js, Ruby, Python) where tools are primarily built for Linux/Mac OS.
-*   Easy installation: Often available from the Microsoft Store (search for "Ubuntu").
+*   Often preferred for certain types of development (e.g., web development with Node.js, Ruby, Python) where tools are primarily optimized for Linux/Mac OS.
+*   Easy installation: Available from the Microsoft Store (search for "Ubuntu" and choose the latest LTS version like 24.04 LTS).
 *   Can integrate with tools like VS Code (VS Code runs on Windows, but can operate on files and run commands within the WSL environment).
 
 ## CLI Command Structure
@@ -200,6 +200,7 @@ This lecture introduces students to the command-line interface, its history, fun
 *   Core idea: Build small, simple, specialized programs that do one thing well, and provide mechanisms (like pipes and redirection) to connect them together to perform complex tasks.
 *   Contrast: Building large, monolithic programs that try to do everything.
 *   Benefit: Easier to develop, test, and maintain small tools. Analogy to modern "microservices" architecture.
+*   Caveat: it's not always possible, sometimes the subsystems are tightly coupled and you can't really avoid building a large monolith.
 
 ## Other Network/CLI Tools
 
@@ -208,9 +209,9 @@ This lecture introduces students to the command-line interface, its history, fun
     scp local_file user@server:remote_path
     ```
 *   **ftp / sftp (File Transfer Protocol / Secure FTP):** Protocols for transferring files. Sftp is the secure, encrypted version.
-    *   Often used with GUI clients like **Filezilla** (drag-and-drop interface for file transfer between local and remote servers). Common for web hosting.
+    *   Often used with GUI clients like **Filezilla**  - a GUI application for file transfer between local and remote servers.
 
-## Text-based User Interfaces (TUI) / Text-based Graphical Interfaces (TGUI)
+## Text-based User Interfaces
 
 *   Interactive applications that run within the terminal but provide a more structured interface than just a command prompt.
 *   Use text characters to draw windows, menus, graphs, etc.
@@ -230,7 +231,7 @@ This lecture introduces students to the command-line interface, its history, fun
 ## Recommended Resources
 
 *   Command Line Crash Course video (available on D2L).
-*   Articles on `tmux`, `htop`, etc.
+*   Articles on `tmux` and `htop` for advanced use
 
 ## Conclusion
 
