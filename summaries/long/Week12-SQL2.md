@@ -7,7 +7,7 @@
 
 *   **Data Definition Language (DDL):**
     *   This is the part of SQL used for defining, modifying, and deleting database structures like tables.
-    *   It's not a separate language, but a category of SQL statements.
+    *   It's not a separate language, but a subset of SQL.
     *   Common DDL commands:
         *   `CREATE TABLE`: Defines a new table structure.
         *   `ALTER TABLE`: Modifies an existing table (e.g., add/remove columns).
@@ -130,7 +130,7 @@
         *   These two foreign keys often form a composite primary key for the bridge table, uniquely identifying each specific instance of a product within an order.
         *   The bridge table can also hold attributes specific to the relationship, like `quantity` or `comments` for that particular item in that order.
         *   This converts the many-to-many relationship into two one-to-many relationships (One Order to Many Order Items, One Product to Many Order Items).
-        *   This concept can initially seem counter-intuitive but is standard practice in relational database design. This might be covered more deeply in a dedicated database course.
+        *   This concept can initially seem counter-intuitive but is standard practice in relational database design. This will be covered more deeply in a dedicated database course nex semester.
 
 *   **Entity Relationship Diagrams (ERDs):**
     *   Purpose: Visual tools used to model and document the structure of a database, showing entities, their attributes, and the relationships between them.
@@ -151,6 +151,7 @@
 
 *   **Learning Resources:**
     *   W3C SQL Exercises (basic practice).
+    *   https://www.hackerrank.com/domains/sql
     *   YouTube playlists and videos offering introductions to SQL and databases (some more dramatic, some more in-depth covering installation, indices, etc.).
     *   Reddit's r/SQL community is a good resource for questions and discussions.
-    *   Links to specific recommended videos were provided in the slides for further exploration of advanced topics or alternative introductions.
+    *   More links in the slides.
