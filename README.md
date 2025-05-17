@@ -35,6 +35,10 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 
 ## Vim
 - [Writing at the Speed of Thought](https://www.youtube.com/watch?v=sqm4-B07LsE) - by No Boilerplate
+- Vim Games
+  - [vim-adventures.com](https://vim-adventures.com/)
+  - [vim-hero.com](https://www.vim-hero.com/)
+  - [vimgolf.com](https://www.vimgolf.com/)
 
 ## CLI
 - [Command Line Crash Course For Beginners](https://www.youtube.com/watch?v=uwAqEzhyjtw)
