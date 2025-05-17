@@ -25,6 +25,7 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 ## Representing Text & Numbers in computers
 - [Binary numbers playlist](https://www.youtube.com/watch?v=cJNm938Xwao&list=PLTd6ceoshprcpen2Jvs_JiuvWvqIAkzea)
 - [Once Upon A Punched Card](https://www.youtube.com/watch?v=BlUWg2nxCz0) - historic video by IBM from 1964
+- [Why is @ on your computer keyboard?](https://www.youtube.com/watch?v=MjE03a8PGko) by Inkbox
 - [Unicode and UTF-8](https://www.youtube.com/watch?v=MijmeoH9LT4) by Computerphile
 
 ## Markup languages
