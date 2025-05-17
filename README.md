@@ -33,6 +33,9 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 ## VSCode
 - [How to get started with VS Code](https://www.youtube.com/watch?v=EUJlVYggR1Y) - by Kevin Powell
 
+## Vim
+- [Writing at the Speed of Thought](https://www.youtube.com/watch?v=sqm4-B07LsE) - by No Boilerplate
+
 ## CLI
 - [Command Line Crash Course For Beginners](https://www.youtube.com/watch?v=uwAqEzhyjtw)
 - [Is the terminal still worth learning?](https://www.youtube.com/watch?v=PwoD3XxYLII) - by Veronica Explains
