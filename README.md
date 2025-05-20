@@ -41,6 +41,10 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
   - [vim-hero.com](https://www.vim-hero.com/)
   - [vimgolf.com](https://www.vimgolf.com/)
 
+## Keyboards
+ - [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/)
+ - [r/ErgoMechKeyboards](https://www.reddit.com/r/ErgoMechKeyboards/)
+
 ## CLI
 - [Command Line Crash Course For Beginners](https://www.youtube.com/watch?v=uwAqEzhyjtw)
 - [Is the terminal still worth learning?](https://www.youtube.com/watch?v=PwoD3XxYLII) - by Veronica Explains
