@@ -1,32 +1,40 @@
 # COMP1238 - Week 1 - Typing Practice Lab
 
-Welcome to the Typing Practice Lab! Follow the instructions below to improve your typing skills using Ratatype. 
+Welcome to the Typing Practice Lab! Follow the instructions below to improve your typing skills. Ratatype and Keybr are slightly different in ther approach, it's best to try both and stick with the one you like better.
+
 
 ## Instructions
 
-1. **Sign Up for Ratatype**
-    - Go to [ratatype.com](https://www.ratatype.com/)
-    - Click "Hey! Login" in the upper right corner and Sign up to create a free account. You can use any email or Google account, it doesn't have to be your GBC account.
+1. **Sign Up for Ratatype and Keybr**
+    - [keybr.com](https://www.keybr.com/) - Read the onboarding slides and click `Sign-in` in the upper right corner.
+    - [ratatype.com](https://www.ratatype.com/) - Click `Hey! Login` in the upper right corner.
+    - You can use any email or identity account, it doesn't have to be your GBC account.
 
 1. **Practice Tests**
-    - After logging in, navigate to the [typing tests section](https://www.ratatype.com/typing-test/).
+    - After logging in, navigate to the testing section
+        - Keybr - [keybr.com/typing-test](https://www.keybr.com/typing-test)
+        - Ratatype - [ratatype.com/typing-test](https://www.ratatype.com/typing-test)
     - Take several practice tests to get comfortable with the interface.
 
-1. **Take a 2-Minute Test**
-    - Once you've completed your practice tests, take a 2-minute typing test.
-    - After completing the 2-minute test, take a screenshot of your results.
+1. **Take a 1-Minute Test and submit a screenshot on D2L**
+    - Once you've completed your practice tests, take a 1-minute typing test.
+    - After completing the test, take a screenshot of your results.
     - Submit the screenshot on D2L under the "Lab 1 assignment".
     - Your speed doesn't matter at this point, we only want to make sure you sign up and try out the platform.
 
 1. **Typing Lessons**
-    - Head over to the [Typing tutor](https://www.ratatype.com/typing-tutor/) section on Ratatype.
+    - Head over to the practice section
+        -  [Keybr Practice](https://www.keybr.com/)
+        -  [Ratatype Typing Tutor](https://www.ratatype.com/typing-tutor/)
     - Complete several lessons to work on improving your typing skills.
-    - Take a look at the [Learn](https://www.ratatype.com/learn/) section, it has a short guide on how to position your fingers.
+    - Take a look at the Learn / Help sections
+        - [Ratatype Learn](https://www.ratatype.com/learn/)
+        - [Keybr Help](https://www.keybr.com/help)
 
 1.  **Daily Typing Practice**
     - Practice daily for 10-15 minutes to steadily increase proficiency and typing speed. Frequent short practice sessions work much better than infrequent long ones.
-    - Consistent practice is key to improvement! 
     - Subscribe to the [r/Typing](https://reddit.com/r/typing) subreddit - it's great at providing motivation to practice and good advice if you get stuck.
+    - Consistent practice is key to improvement! 
 
 
 Happy Typing! 🖥️✨
