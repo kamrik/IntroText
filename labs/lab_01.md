@@ -37,18 +37,6 @@ Happy Typing! 🖥️✨
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/QWERTY-home-keys-position.svg" width="500">
 
-## Optional: Writing Assignment - not for submission
-Write a short document for yourself.
-Insert a screenshot of your typing test results from Ratatype. 
-Explain the terms below as you understand them. Don’t Google them, use your own words and knowledge and don't overthink it. Discuss them with the classmates sitting next to you.
-- Web Browser
-- WWW
-- Downloading
-- URL
-- HTTPS
-
-This document is only for yourself, you may find it fun to re-read some years later. Add a message to future self.
-
 
 ## Optional: Text-based Game to Play at Home
 Zork - text-based adventure game from 1977.  
@@ -60,3 +48,16 @@ About the game:
 Play the game in the browser:
 - [Option 1](https://playclassic.games/games/adventure-dos-games-online/play-zork-great-underground-empire-online/play/)
 - [Option 2](https://www.pcjs.org/software/pcx86/game/infocom/zork1/)
+
+
+## Optional: Writing Assignment - not for submission
+Write a short document for yourself.
+Insert a screenshot of your typing test results from Ratatype. 
+Explain the terms below as you understand them. Don’t Google them, use your own words and knowledge and don't overthink it. Discuss them with the classmates sitting next to you.
+- Web Browser
+- WWW
+- Downloading
+- URL
+- HTTPS
+
+This document is only for yourself, you may find it fun to re-read some years later. Add a message to future self.
