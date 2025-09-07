@@ -27,7 +27,7 @@ If you already have a GitHub account skip to the next step.
 
 ## 2. Accept the Assignment on GitHub Classroom page
  - Open the assignment invitation link in a new tab and accept the assignment:  
-   https://classroom.github.com/a/_MFZ_dgr
+   https://classroom.github.com/a/XMuRK2TN
  - Select your own GBC email from the list. This will associate your GitHub username with your GBC email for the rest of this semester
     - if you can't find yourself on the list, use one of the emails that look like this:  
     if.not.listed.use.this_7@then.email.prof.com  
