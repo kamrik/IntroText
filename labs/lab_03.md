@@ -17,8 +17,9 @@
 
 ## Accept the Assignment on GitHub Classroom page
  - Open the assignment invitation link in a new tab and accept the assignment  
-   https://classroom.github.com/a/TBD
- - If this is your first lab, select your own GBC email from the list. This will associate your GitHub username with your GBC email for the rest of this semester (if you can't find your GBC email in the list, click "Skip" and email the prof to fix this)
+   https://classroom.github.com/a/uHpiZIXb
+ - **If this is your first lab:**  
+   Select your own GBC email from the list. This will associate your GitHub username with your GBC email for the rest of this semester (if you can't find your GBC email in the list, click "Skip" and email the prof to fix this)
  - A new repository will be created for you, this repository belongs to the `f25gbc` organization and the address will look like  
  `https://github.com/f25gbc/comp1238-lab3-username`
 
@@ -43,7 +44,7 @@
 Edit the `README.md` file in your repository as follows:
 
 #### 1. **Number Row Characters**
-1. Create a section in your README with the title `Number Row Characters`. Use `##` for your sections headings.
+1. Create a section in your README with the title `Number Row Characters`. Use `##` to start your section headings.
 2. Write down all the characters you can type using the number row of your keyboard while holding the `Shift` key (this is the row above the QWERTY row).
 3. Write each character on a new line as part of a **bullet list**. (Hint: the first section of the README contains an example of a bullet list)
 4. For each character, list all the names you know for it. Feel free to include names in your native language if applicable.
