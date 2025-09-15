@@ -16,8 +16,8 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
   - [monkeytype.com](https://monkeytype.com/)
   - [entertrained.app](https://entertrained.app/) - Practice typing by retyping famous novels
   - [GNU Typist](https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html) - a CLI based practice tool.
-    To install on Ubuntu use `sudo apt install gtypist`
-  - [ttyper](https://github.com/max-niederman/ttyper) - a newer CLI based practice tool written in Rust
+    To install on Ubuntu, use `sudo apt install gtypist`
+  - [ttyper](https://github.com/max-niederman/ttyper) - a newer CLI-based practice tool written in Rust
 
 ## Fonts
 - [The Story of Fonts](https://www.youtube.com/watch?v=WVfRxFwVHQc) by struthless
@@ -71,7 +71,7 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
  - [Airtable vs Excel and Google Sheets](https://www.youtube.com/watch?v=RHFvUmptIs0) by Julian Post
  - [Airtable 2024 - Full Course for Beginners](https://www.youtube.com/watch?v=Hq3rQpodt58) by Julian Post
  - Airtable alternatives
-   - Notion Databases - less DB features but part of Notion
+   - Notion Databases - fewer DB features, but part of Notion
    - [NocoDB](https://nocodb.com/) - open source
    - [BaseRow](https://baserow.io/) - open source
 
