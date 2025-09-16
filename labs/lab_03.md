@@ -133,8 +133,9 @@ usually preserves the alignment and formatting. Use triple backticks (```) to cr
 
 **Questions to Consider**:
 - Why does the ASCII art break down when pasted into Markdown without the code block guards?
+- Because Markdown collapses spaces and lines unless told to preserve them. Code blocks tell Markdown to **keep exact spacing and formatting**.
 - What is the benefit of using a fixed-width (monospaced) fonts when working with ASCII art?
-
+Monospaced fonts ensure all characters are the **same width**, which keeps ASCII art aligned properly.
 ---
 
 ### Checklist for Completing the Exercise:
@@ -145,3 +146,66 @@ Before submitting or showing your work, double-check the following:
 - [ ] My Markdown syntax works correctly, and the document looks tidy.
 - [ ] I had fun experimenting with Markdown and feel more confident using it!
 
+## Number Row Characters
+
+- \! - Exclamation mark, Bang
+- \@ - At symbol, At sign
+- \# - Hash, Pound, Sharp, Number sign
+- \$ - Dollar sign
+- \% - Percent sign
+- \^ - Caret, Hat
+- \& - Ampersand
+- \* - Asterisk, Star
+- \( - Left parenthesis
+- \) - Right parenthesis
+
+## Links
+
+- [GitHub Docs](https://docs.github.com/)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [GitHub Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+
+## Emojis
+
+I love using GitHub! :octocat:  
+Learning Markdown is fun! :sparkles: :smile: :computer:
+
+## Images
+
+Here is a random image from [Picsum](https://picsum.photos):
+
+![Random Image](https://picsum.photos/320)
+
+Or, here's the GBC logo:
+
+![GBC Logo as SVG](https://www.georgebrown.ca/themes/custom/de_theme/logo.svg)
+## Checklist
+
+- [x] Learn Markdown basics  
+- [ ] Create a cool GitHub README  
+- [ ] Complete this exercise  
+- [ ] Add more fun content!
+## ASCII Art
+
+          _____                    _____                    _____            _____           _______         
+         /\    \                  /\    \                  /\    \          /\    \         /::\    \        
+        /::\____\                /::\    \                /::\____\        /::\____\       /::::\    \       
+       /:::/    /               /::::\    \              /:::/    /       /:::/    /      /::::::\    \      
+      /:::/    /               /::::::\    \            /:::/    /       /:::/    /      /::::::::\    \     
+     /:::/    /               /:::/\:::\    \          /:::/    /       /:::/    /      /:::/~~\:::\    \    
+    /:::/____/               /:::/__\:::\    \        /:::/    /       /:::/    /      /:::/    \:::\    \   
+   /::::\    \              /::::\   \:::\    \      /:::/    /       /:::/    /      /:::/    / \:::\    \  
+  /::::::\    \   _____    /::::::\   \:::\    \    /:::/    /       /:::/    /      /:::/____/   \:::\____\ 
+ /:::/\:::\    \ /\    \  /:::/\:::\   \:::\    \  /:::/    /       /:::/    /      |:::|    |     |:::|    |
+/:::/  \:::\    /::\____\/:::/__\:::\   \:::\____\/:::/____/       /:::/____/       |:::|____|     |:::|    |
+\::/    \:::\  /:::/    /\:::\   \:::\   \::/    /\:::\    \       \:::\    \        \:::\    \   /:::/    / 
+ \/____/ \:::\/:::/    /  \:::\   \:::\   \/____/  \:::\    \       \:::\    \        \:::\    \ /:::/    /  
+          \::::::/    /    \:::\   \:::\    \       \:::\    \       \:::\    \        \:::\    /:::/    /   
+           \::::/    /      \:::\   \:::\____\       \:::\    \       \:::\    \        \:::\__/:::/    /    
+           /:::/    /        \:::\   \::/    /        \:::\    \       \:::\    \        \::::::::/    /     
+          /:::/    /          \:::\   \/____/          \:::\    \       \:::\    \        \::::::/    /      
+         /:::/    /            \:::\    \               \:::\    \       \:::\    \        \::::/    /       
+        /:::/    /              \:::\____\               \:::\____\       \:::\____\        \::/____/        
+        \::/    /                \::/    /                \::/    /        \::/    /         ~~              
+         \/____/                  \/____/                  \/____/          \/____/                          
+                                                                                                             
