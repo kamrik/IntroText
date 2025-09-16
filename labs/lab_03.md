@@ -136,7 +136,6 @@ usually preserves the alignment and formatting. Use triple backticks (```) to cr
 - Because Markdown collapses spaces and lines unless told to preserve them. Code blocks tell Markdown to **keep exact spacing and formatting**.
 - What is the benefit of using a fixed-width (monospaced) fonts when working with ASCII art?
 Monospaced fonts ensure all characters are the **same width**, which keeps ASCII art aligned properly.
----
 
 ### Checklist for Completing the Exercise:
 Before submitting or showing your work, double-check the following:
