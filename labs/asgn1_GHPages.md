@@ -4,8 +4,10 @@
 ## Step 1 - Create your own public repo
 In the labs so far we edited files in a repository created by GitHub Classroom. In this assignment you will need to work with two repositories:
 
-1. Your own repository, where most of the editing will happen
-1. The usual GitHub Classroom repo like in the labs, with an address like this: `github.com/comp1238w25/asgn1-username`. It will be used to tell the autograder where to look for the first repo.
+1. Your own repository, where most of the editing will happen, the address should look like this:  
+`github.com/your-username/your-repo-name`
+1. A GitHub Classroom with an address like this: `github.com/f25gbc/comp1238-asgn1-username`  
+It will be used to tell the autograder where to look for the first repo.
 
 
 To create your own repository, go to [github.com](https://github.com) and click the green `New` button. Alternatively you can go directly to [github.com/new](https://github.com/new). Then follow the steps below. Numbers refer to the red circles on the screenshot.
