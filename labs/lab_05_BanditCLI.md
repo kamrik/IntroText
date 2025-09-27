@@ -38,7 +38,7 @@ How to run Terminal or PowerShell on Windows
 
 ## Submission
 Follow the assignment invitation link  
-https://classroom.github.com/a/TBD  
+https://classroom.github.com/a/iS0GCXP2  
 Once your repository is created, edit `passwords.txt` file. Save all the passwords you find during the game in that file. It also contains some hints.
 
 Your goal is to reach level 3, the instructor and the autograder hints will guide you there, but feel free to keep going beyond level 3.
