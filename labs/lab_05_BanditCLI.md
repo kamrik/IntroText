@@ -19,14 +19,13 @@ Once you find the password for the next level, save it in a file on your compute
 `ssh bandit1@bandit.labs.overthewire.org -p 2220`
 
 ## How to open the terminal
-- MacOS - open Spotlight (usually ⌘-Space) and start typing "terminal" - run it
+- MacOS - open Spotlight (usually ⌘-Space) and start typing "terminal"
   - Or find it in `Applications` -> `Utilities`
-- Windows - Open the ⊞Start menu (Win key) and start typing "Terminal" - run it
-  - running `cmd` or `Power Shell` instead of Terminal may work ok too
+- Windows - Open the ⊞Start menu (Win key) and start typing "Terminal"
+  - running `cmd`, `Power Shell` or `Git Bash` instead of Terminal should work ok too
  
 > [!NOTE]  
-> If you have an old version of Windows that does not include an SSH client, you can 
-use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) instead.
+> If you use an old version of Windows that does not include an SSH client, you can use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) instead.
 
 It should look like this in your terminal  
 ![Run SSH](img/power_shell_ssh.png)
@@ -39,8 +38,8 @@ How to run Terminal or PowerShell on Windows
 
 ## Submission
 Follow the assignment invitation link  
-https://classroom.github.com/a/qa5inA9h  
-Once your repository is created, edit `passwords.txt` file. Save all the passwords you find during the game in that file.
+https://classroom.github.com/a/TBD  
+Once your repository is created, edit `passwords.txt` file. Save all the passwords you find during the game in that file. It also contains some hints.
 
 Your goal is to reach level 3, the instructor and the autograder hints will guide you there, but feel free to keep going beyond level 3.
 
