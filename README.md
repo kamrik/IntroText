@@ -45,6 +45,18 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
  - [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/)
  - [r/ErgoMechKeyboards](https://www.reddit.com/r/ErgoMechKeyboards/)
 
+## Keyboard shortcuts
+Shortcuts I frequently use: 
+- Ctrl-C (copy)
+- Ctrl-V (paste)
+- Ctrl-Z (undo)
+
+Shortcuts I would like to start using: 
+- Ctrl-A (select all)
+- Win-D (show desktop)
+- Super-Hyper-Meta-F (I don’t even have such keys, but it sounds impressive)
+
+
 ## CLI
 - [Command Line Crash Course For Beginners](https://www.youtube.com/watch?v=uwAqEzhyjtw)
 - [Is the terminal still worth learning?](https://www.youtube.com/watch?v=PwoD3XxYLII) - by Veronica Explains
@@ -96,3 +108,23 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 - [The longitude problem: history's deadliest riddle](https://www.youtube.com/watch?v=3mHC-Pf8-dU)
 - [About Time Documentary 1962](https://www.youtube.com/watch?v=e__emnxC2Gc)
 
+## Search Experiments
+Try searching for the word "line"
+
+```
+Line
+line
+lines
+line 5
+line-7
+line72TODO
+line73.4
+end of line
+end-of-line
+outline
+linear
+```
+
+## More Resources
+
+Check out the [Useful Resources](links.md) page for useful links.
