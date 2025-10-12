@@ -12,14 +12,14 @@
 Explore JSON & YAML:
 - Convert a simple CSV file to JSON
 - Add comments in YAML with keywords describing JSON data types (number, string, etc.)
-- Validate JSON and YAML files by parsing them
+- Validate JSON and YAML
 - Format files neatly (optional with VSCode)
 - Submit files through GitHub Classroom for automatic grading
 
 ---
 
 ## Submission Process
-Follow the assignment invitation link  
+Follow the assignment invitation link:  
 https://classroom.github.com/a/2EFJbUi9
 
 Please save your work in the following two files in the **root directory of your repository**:
@@ -41,12 +41,12 @@ It lists several players from different sports.
 
 CSV stands for 
 [Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values),
-it's a common format for storing table-like data. 
+which is a common format for storing table-like data. 
 GitHub renders the CSV files as a table, but you can see the raw text content by clicking either the `Code` or the `Raw` buttons above the file.
 
 
 - `N/A` stands for Not Applicable—in this case, because the tennis player has no team. What data type would be appropriate in JSON/YAML to represent this?
-- How many **columns** and **rows** are there in this file? How does the CSV format can be mapped to JSON and YAML?
+- How many **columns** and **rows** are there in this file? How can the CSV format be mapped to JSON and YAML?
 
 ---
 
@@ -55,10 +55,10 @@ Open
 [this JSON-YAML converter](https://www.bairesdev.com/tools/json2yaml/)
 and type in the data from players.csv manually in JSON format.
 
-> Add a few empty lines at the top of the text boxes to prevent pup-up error message from hiding your text.
+> Add several empty lines at the top of the text boxes to prevent the pop-up error message from hiding your text.
 
 
-Observe how the converter turns green whenever you type in valid JSON. Start from typing in `[]` which is a valid empty JSON array. 
+Observe how the converter turns green whenever you type valid JSON. Start from typing in `[]` which is a valid empty JSON array. 
 Start adding objects, one per player, like this:
 ```js
 [
@@ -82,7 +82,7 @@ Store the team info as a sub-object like this:
 }
 ```
 
-After adding some info, you can switch to typing on the YAML side, the converter will convert back to JSON. This can save you some typing but YAML tends to be a bit more confusing for beginners.
+After adding some info, you can switch to typing on the YAML side, and the converter will convert back to JSON. This can save you some typing but YAML can be slightly more confusing for beginners.
 
    - The JSON file should start with `[` and end with `]` to indicate a **list (array)** in JSON.
    - Each row of the CSV should become an **object** in the JSON list.
@@ -105,7 +105,7 @@ Example:
 ```
 
 
-For the YAML version
+For the YAML version:
    - Include comments next to several fields in the YAML file. The comment should contain the data type of the field. For example: `age: 38 # number`
    
    - The autograder will be looking for at least one of the following words in the comments: `number`, `string`, `null`, `boolean`, `object`, `array`.
@@ -121,7 +121,7 @@ Example:
     name: Lakers
     city: Los Angeles
 - name: Someone Else
-  sports: Prompt engineering
+  sport: Prompt engineering
   ...
 ```
 
