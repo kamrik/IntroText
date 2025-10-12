@@ -42,10 +42,10 @@ It lists several players from different sports.
 CSV stands for 
 [Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values),
 which is a common format for storing table-like data. 
-GitHub renders the CSV files as a table, but you can see the raw text content by clicking either the `Code` or the `Raw` buttons above the file.
+GitHub renders CSV files as a tables, but you can see the raw text content by clicking either the `Code` or the `Raw` buttons above the file.
 
 
-- `N/A` stands for Not Applicable—in this case, because the tennis player has no team. What data type would be appropriate in JSON/YAML to represent this?
+- `N/A` stands for Not Applicable—in this case, because this tennis player has no team. What data type would be appropriate in JSON/YAML to represent this?
 - How many **columns** and **rows** are there in this file? How can the CSV format be mapped to JSON and YAML?
 
 ---
