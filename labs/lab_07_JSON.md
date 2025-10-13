@@ -1,4 +1,4 @@
-# Lab 9 - JSON and YAML
+# Lab 7 - JSON and YAML
 
 ## Material covered during the lecture:
 - Structured data
