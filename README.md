@@ -15,6 +15,7 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
   - [ratatype.com](https://www.ratatype.com/)
   - [monkeytype.com](https://monkeytype.com/)
   - [entertrained.app](https://entertrained.app/) - Practice typing by retyping famous novels
+  - [GitType](https://github.com/unhappychoice/gittype) turns your own source code into typing challenges. Because why practice with boring lorem ipsum when you can type your beautiful `fn main()` implementations?
   - [GNU Typist](https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html) - a CLI based practice tool.
     To install on Ubuntu, use `sudo apt install gtypist`
   - [ttyper](https://github.com/max-niederman/ttyper) - a newer CLI-based practice tool written in Rust
