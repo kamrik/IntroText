@@ -45,7 +45,7 @@ Submit a screenshot of your Assignments table. Use full screen or full window sc
 Use the following checklist:
 
 1. The database name is visible and includes your name (first name is ok).
-1. Your avatar icon in the upper right corner is visible.
+1. Your avatar icon in the bottom left corner is visible.
 1. The database contains two tables: Assignments and Courses.
 1. The Assignments table contains a "Course" column of type `Link to Courses`.
 1. The Assignments table contains a "Due Date" column of type `Date`.
