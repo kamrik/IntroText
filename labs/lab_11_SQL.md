@@ -4,24 +4,24 @@
 Gain experience running simple SQL `SELECT` queries
 
 ## Submission Process
-Follow the assignment invitation link  
+Follow the assignment invitation link:  
 https://classroom.github.com/a/VoSTPPpH
 
-In the repo created by GtiHub Classroom modify the `queries.sql` file. It will be auto-graded on each commit.
+In the repo created by GitHub Classroom, modify the `queries.sql` file. It will be auto-graded on each commit.
 
-## Step 1 - open the database in sqliteonline.com
+## Step 1 - Open the database in sqliteonline.com
 Open the practice SQLite database using the link below.
 You should see the Courses and Assignments tables in the left panel.
 
 https://sqliteonline.com/#urldb=https://raw.githubusercontent.com/kamrik/IntroText/refs/heads/main/examples/sql/t177.db
 
-If you are curious, this DB was initialized using this file - [t177.sql](../examples/sql/t177.sql)
+If you are curious, this database was initialized using this file - [t177.sql](../examples/sql/t177.sql)
 
 
 ## Step 2 - Run some queries to get started
 Run each of the following SELECT queries. Observe the output and try to understand it.
 
-To execute a query on sqliteonline.com you can either press `Shift-Enter` on the keyboard or click the green triangle `▶ Run` button at the top of the page.
+To execute a query on sqliteonline.com, you can either press `Shift-Enter` on the keyboard or click the green triangle `▶ Run` button at the top of the page.
 
 
 ```sql
@@ -46,7 +46,7 @@ ORDER BY due_date;
 -- Use this query as a reference for the next step
 SELECT course_id, title, status, due_date
 FROM assignments
-WHERE status != 'Completed'	
+WHERE status != 'Completed'
   AND course_id LIKE 'COMM%'
   AND due_date < '2024-12-31'
 ORDER BY due_date;
@@ -78,6 +78,6 @@ ORDER BY due_date;
    Write a query to find the total number of assignments with a status of "Not Started". Remember to use single quotes for strings in SQL.
 
 8. **Find Courses with Labs on Tuesday**  
-   Write a query to find the `course_id` and `course_name` of courses that have lab sessions on Tuesday. Hint: use `LIKE 'Tue%`
+   Write a query to find the `course_id` and `course_name` of courses that have lab sessions on Tuesday. Hint: use `LIKE 'Tue%'`
    
 
