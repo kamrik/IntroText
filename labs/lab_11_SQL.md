@@ -5,7 +5,7 @@ Gain experience running simple SQL `SELECT` queries
 
 ## Submission Process
 Follow the assignment invitation link  
-https://classroom.github.com/a/9rvOvsZp
+https://classroom.github.com/a/VoSTPPpH
 
 In the repo created by GtiHub Classroom modify the `queries.sql` file. It will be auto-graded on each commit.
 
