@@ -14,7 +14,7 @@ Gain experience running SQL SELECT queries with built in functions.
 
 ## Submission instructions
 Follow the assignment invitation link  
-https://classroom.github.com/a/ry8fvbsd
+https://classroom.github.com/a/_TbNeHUH
 
 In the repo created by GtiHub Classroom modify the `queries.sql` file. It will be auto-graded on each commit.
 
