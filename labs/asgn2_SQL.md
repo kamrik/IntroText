@@ -1,4 +1,4 @@
-# Home Assignment 2 - SQL part 3
+# Home Assignment 2 - SQL
 
 
 ## Submission instructions
