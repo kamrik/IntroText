@@ -5,11 +5,11 @@
 Follow the assignment invitation link  
 https://classroom.github.com/a/kTp6mB_r
 
-In the repo created by GtiHub Classroom modify the `queries.sql` file. It will be auto-graded on each commit.
+In the repo created by GitHub Classroom modify the `queries.sql` file. It will be auto-graded on each commit.
 
 
 ## Introduction
-This exercise is based on an SQLite database. In addition to the two tables we used in the labs it contains another table that is defined as follows:
+This exercise is based on an SQLite database. In addition to the two tables we used in the labs, it contains another table that is defined as follows:
 
 ```sql
 CREATE TABLE rectangles (
@@ -31,7 +31,7 @@ In many computer applications, including in HTML & CSS, coordinates of objects o
 <img src="img/rectangles.png" width="400">
 
 - Definition and data for the rectangles table can be found in 
-  [rectangels.sql](../examples/sql/rectangles.sql)
+  [rectangles.sql](../examples/sql/rectangles.sql)
 - The courses and assignments tables are defined, as before, in
   [t177.sql](../examples/sql/t177.sql)
 - Documentation for SQLite built-in functions can be found at 
@@ -49,7 +49,7 @@ https://sqliteonline.com/#urldb=https://raw.githubusercontent.com/kamrik/IntroTe
 
 ## Step 2 - run some queries to get started
 Run each of the following SELECT queries.
-To execute the query on sqliteonline.com you can either press `Shift-Enter` on the keyboard or or click the green triangle `▶ Run` button at the top of the page.
+To execute the query on sqliteonline.com you can either press `Shift-Enter` on the keyboard or click the green triangle `▶ Run` button at the top of the page.
 
 Observe the results for each query and try to understand it.
 
@@ -111,9 +111,9 @@ SELECT 1970 + unixepoch() / 60. / 60. / 24. / 365.25;
 1. **What color is the tallest rectangle?**
 
 1. **List all rectangles that are wider than they are tall**
-   - That is the width is larger than height
+   - That is, the width is larger than the height
 
-1. **Calculate and select area of each rectangle**
+1. **Calculate and select the area of each rectangle**
    - Area is `width` times `height` (just in case)
    - Use the `AS` keyword to alias the calculated column, name it `area`
 
@@ -121,7 +121,7 @@ SELECT 1970 + unixepoch() / 60. / 60. / 24. / 365.25;
    - Write an SQL query to find the color of the rectangle with the largest area.
 
 1. **What color is the rectangle that extends the most to the right?**
-   - Hint: the coordinates of the bottom right corner are  
+   - Hint: The coordinates of the bottom right corner are  
    `x + width, y + height`
 
 1. **Find rectangle(s) with NULL color**
@@ -135,7 +135,7 @@ SELECT 1970 + unixepoch() / 60. / 60. / 24. / 365.25;
    - Do not include NULL
    - Named colors are colors like `red` as opposed to RGB colors that look like `#abcdef`
    
-1. **List rectangle colors in upper case letters**
+1. **List rectangle colors in uppercase letters**
    - Like this `RED` or `#FF12B2`
 
 1. **What is the course_id of the course with the longest name?**
@@ -146,10 +146,10 @@ SELECT 1970 + unixepoch() / 60. / 60. / 24. / 365.25;
    - Write a query to list all courses, concatenating the `course_id` and `course_name` fields with a colon and a space between them. Like this:   
    "COMP1151: IT Essentials"
    
-1. **List courses with Labs on Mondays:**  
+1. **List courses with labs on Mondays:**  
    - Write a query to list all courses that have a lab session scheduled on Monday.
    
-1. **Assignments due before specific date:**  
+1. **Assignments due before a specific date:**  
    - Write a query to list all assignments with a due date before January 1st, 2025.  
    
 1. **How many assignments are there for each course:**  
