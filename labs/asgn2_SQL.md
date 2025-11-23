@@ -3,7 +3,7 @@
 
 ## Submission instructions
 Follow the assignment invitation link  
-https://classroom.github.com/a/jqgF6v2b
+https://classroom.github.com/a/kTp6mB_r
 
 In the repo created by GtiHub Classroom modify the `queries.sql` file. It will be auto-graded on each commit.
 
