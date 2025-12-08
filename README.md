@@ -64,6 +64,7 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 - [VSCode Git Tutorial (2023)](https://www.youtube.com/watch?v=WAqWUfGIQYI) by Ghost Together
 - [How to Install Git on MacOS using HomeBrew](https://www.youtube.com/watch?v=B4qsvQ5IqWk) - by Code Wizard
 - [Git and GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) - by Kevin Stratvert, CLI based
+- [Basic Concepts Behind Branching and Merging](https://www.youtube.com/watch?v=Ala6PHlYjmw) - by LearnThatStack
 
 
 ## JSON
