@@ -100,3 +100,6 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 - [The longitude problem: history's deadliest riddle](https://www.youtube.com/watch?v=3mHC-Pf8-dU)
 - [About Time Documentary 1962](https://www.youtube.com/watch?v=e__emnxC2Gc)
 
+## Learning Techniques 
+- [Quick overview of the 3C method](https://www.youtube.com/watch?v=npQ2IORdlvU) - by theMITmonk
+
