@@ -34,7 +34,7 @@ Welcome to the Typing Practice Lab! Follow the instructions below to improve you
 
 1.  **Daily Typing Practice**
     - Practice daily for 10-15 minutes to steadily increase proficiency and typing speed. Frequent short practice sessions work much better than infrequent long ones.
-    - Subscribe to the [r/Typing](https://reddit.com/r/typing) subreddit - it's great at providing motivation to practice and good advice if you get stuck.
+    - Subscribe to the [r/Typing](https://reddit.com/r/typing) subreddit - it's great for providing motivation to practice and good advice if you get stuck.
     - Consistent practice is key to improvement.
 
 
@@ -48,8 +48,8 @@ Happy Typing! 🖥️✨
 
 
 ## Optional: Text-based Game
-Zork - text-based adventure game from 1977.  
-Why play it? - it gets you prepared for Command Line work.  
+Zork - a text-based adventure game from 1977.  
+Why play it? It gets you prepared for command-line work.  
 About the game:
 - [YouTube video](https://www.youtube.com/watch?v=HCIesZ1yY_w)
 - [Wikipedia page](https://en.wikipedia.org/wiki/Zork)
@@ -62,11 +62,11 @@ Play the game in the browser:
 ## Optional: Writing Assignment - not for submission
 Write a short document for yourself.
 Insert a screenshot of your typing test results from Keybr or Ratatype. 
-Explain the terms below as you understand them. Don’t Google them, use your own words and knowledge and don't overthink it. Discuss them with the classmates sitting next to you.
+Explain the terms below as you understand them. Don't Google them; use your own words and knowledge, and don't overthink it. Discuss them with the classmates sitting next to you.
 - Web Browser
 - WWW
 - Downloading
 - URL
 - HTTPS
 
-This document is only for yourself, you may find it fun to re-read some years later. Add a message to future self.
+This document is only for yourself; you may find it fun to re-read some years later. Add a message to your future self.
