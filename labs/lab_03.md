@@ -91,10 +91,10 @@ Use your `name.surname@georgebrown.ca` email, not the numeric student ID.
     ```
 1. For example:
     ```
-    ![GBC Logo as SVG](https://www.georgebrown.ca/themes/custom/de_theme/logo.svg)
+    ![GBC Logo as SVG](img/gbc_logo.png)
     ```
 1. Gets rendered like this (hover with your mouse over the image to see if the alt text will show as a tooltip):  
-   ![GBC Logo](https://www.georgebrown.ca/themes/custom/de_theme/logo.svg)
+   ![GBC Logo](img/gbc_logo.png)
 
 1. You can use this address `https://picsum.photos/320` to show a random image. 320 is the width in pixels.
 1. If you’re feeling adventurous, try using an animated GIF!
