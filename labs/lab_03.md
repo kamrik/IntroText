@@ -5,7 +5,7 @@
 ## Material Covered During the Lecture:
 - Structure of a text file
 - Punctuation, whitespace, line breaks
-- Markup languages, raw vs rendered view. MarkDown, HTML
+- Markup languages, raw vs rendered view. Markdown, HTML
 - Structured data, JSON and XML formats
 - Special characters and “escaping”
 
@@ -24,13 +24,12 @@
  `https://github.com/f25gbc/comp1238-lab3-username`
 
 ## Complete the assignment in your new repository
-- In your new repository edit the `README.md` file by
- clicking the edit button (looks like a pencil).
+- In your new repository, edit the `README.md` file by clicking the edit button (looks like a pencil).
 - When editing a Markdown file on GitHub you can alternate between the raw `Edit` and `Preview` views using the buttons on the upper left side.
 - When you save (commit) this file, an auto-grading script will run. Results can be seen under **Actions** tab - see screenshots in the [autograder instructions](autograder_instructions.md).
-- If you don't know what the autograder expects, find it out experimentally - save and see the output, it usually comes with hints.
+- If you don't know what the autograder expects, find out experimentally - save and see the output, it usually comes with hints.
 - The autograder is dumb, it may complain if it gets a section named "Image" when it expects "Images" (plural), just check the output and change your phrasing accordingly, it's an iterative process.
-- Parts phrased as questions, as opposed to instructions, are for you to think, the autograder won't be looking for those answers.
+- Parts phrased as questions, as opposed to instructions, are for you to think about; the autograder won't be looking for those answers.
 
 ### Useful references
 - [How to edit a file and check for results](https://github.com/kamrik/IntroText/blob/main/labs/autograder_instructions.md)
@@ -43,7 +42,7 @@
 ## Instructions
 Edit the `README.md` file in your repository as follows:
 
-#### 0. ** Add your GBC email **
+#### 0. **Add your GBC email**
 Use your `name.surname@georgebrown.ca` email, not the numeric student ID.
 
 #### 1. **Number Row Characters**
@@ -75,8 +74,7 @@ Use your `name.surname@georgebrown.ca` email, not the numeric student ID.
     - [Markdown Guide](https://www.markdownguide.org/)
     ```
 
-4. Note that there is no space between the closing `]` and the opening `(`
-If you add a space there, it will not display as a link.
+4. Note that there is no space between the closing `]` and the opening `(`. If you add a space there, it will not display as a link.
 
 #### 3. **Emojis**
 1. Create a section titled `Emojis`.
@@ -117,9 +115,7 @@ Hint: Use `- [ ]` for an unchecked box and `- [x]` for a checked box.
 1. Experiment with creating ASCII art for your name (or any phrase you like) using an online ASCII art generator. A simple and fun one to use is [Patorjk's Text Art Generator](https://patorjk.com/software/taag/).
 2. Choose a font style you like from the tool and generate your ASCII art.
 3. Copy and paste the ASCII art directly into your `README.md` file. 
-4. Does the ASCII art display correctly after adding it to your README? If not, think about the type of formatting you might need to make it look right. Hint: Wrapping the ASCII art in a
-[code block](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) 
-usually preserves the alignment and formatting. Use triple backticks (```) to create a code block, like this:
+4. Does the ASCII art display correctly after adding it to your README? If not, think about the type of formatting you might need to make it look right. Hint: Wrap the ASCII art in a [code block](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) to preserve the alignment and formatting. Use triple backticks (```) to create a code block, like this:
 
 ````
 ``` 
