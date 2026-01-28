@@ -103,3 +103,6 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 ## Learning Techniques 
 - [Quick overview of the 3C method](https://www.youtube.com/watch?v=npQ2IORdlvU) - by theMITmonk
 
+## Ergnonomics
+- [Powerlifting as back pain prevention](https://www.youtube.com/watch?v=WxN9VzwoGGw) - by No Boilerplate
+
