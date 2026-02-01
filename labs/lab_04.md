@@ -10,7 +10,7 @@ YouTube Video: [How to get started with VS Code](https://www.youtube.com/watch?v
 
 ## Step 1 - Accept assignment invitation link
 Follow the assignment invitation link  
-https://classroom.github.com/a/TBD  
+https://classroom.github.com/a/IOtmKYpO  
 Once your repository is created, edit it following the instructions below.
 
 ## Step 2 - Edit the lab repo using the `github.dev` editor
