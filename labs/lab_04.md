@@ -16,8 +16,8 @@ Once your repository is created, edit it following the instructions below.
 ## Step 2 - Edit the lab repo using the `github.dev` editor
 
 Open the front page of your repo and replace the `.com` with `.dev` in the browser address bar. For example:  
-- `github.com/comp1238w25/lab4-kamrik/` — use `.com` for the repo  
-- `github.dev/comp1238w25/lab4-kamrik/` — use `.dev` for the editor
+- `github.com/comp1238w26/lab4-user/` — use `.com` for the repo  
+- `github.dev/comp1238w26/lab4-user/` — use `.dev` for the editor
 
 It will open the repo in a text editor that should look similar to this screenshot:
 ![GitHub dev editor](img/github_dev_ui_dark.png)
