@@ -15,18 +15,18 @@ Once your repository is created, edit it following the instructions below.
 
 ## Step 2 - Edit the lab repo using the `github.dev` editor
 
-Open the front page of your repo, and replace the `.com` with `.dev` in the browser address bar. Example:  
-`github.com/comp1238w25/lab4-kamrik/` - .com for repo  
-`github.dev/comp1238w25/lab4-kamrik/` - .dev for editor
+Open the front page of your repo and replace the `.com` with `.dev` in the browser address bar. For example:  
+- `github.com/comp1238w25/lab4-kamrik/` — use `.com` for the repo  
+- `github.dev/comp1238w25/lab4-kamrik/` — use `.dev` for the editor
 
 It will open the repo in a text editor that should look similar to this screenshot:
-![screenshot - enable Pages](img/github_dev_ui_dark.png)
+![GitHub dev editor](img/github_dev_ui_dark.png)
 
 
-Open the README.md file. In order to see the rendered preview (if it's not already open), press `Ctrl-Shift-V` on Mac it's `Cmd-Shift-V`
+Open the README.md file. To see the rendered preview (if it's not already open), press `Ctrl-Shift-V`; on Mac, use `Cmd-Shift-V`.
 
 ## Step 3 - Explore some keyboard shortcuts
-Edit the README.md file. Add a section titled "Keyboard shortcuts" listing several keyboard shortcuts you already use frequently (if any) and 3 more shortcuts you would like to start using. Feel free to google for common keyboard shortcuts.
+Edit the README.md file. Add a section titled "Keyboard shortcuts" listing several keyboard shortcuts you already use frequently (if any) and three more shortcuts you would like to start using. Feel free to search for common keyboard shortcuts.
 
 For example:
 ```markdown
@@ -83,7 +83,7 @@ Try searching using the following regex patterns. Enable regex search by togglin
 ## Step 5 - Create a new Markdown file and link to it
 
 ### Step 5.1 - Create a new Markdown file
-1. In the `.dev` editor, create a new Markdown file named `links.md` (see the screenshot at the top)
+1. In the `.dev` editor, create a new Markdown file named `links.md` (see the screenshot above)
 2. Add the following content to `links.md`:
 
   ```markdown
@@ -114,12 +114,12 @@ Go back to the `README.md` file and add a new section near the bottom titled **M
   ```
 
 ## Committing the changes
-The system requires a commit message in the textbox labeled as (2) on the screenshot below. Type anything, in this case something like “Add links file” would be an appropriate commit message. After you commit, Check for autograder output under `Actions`
+The system requires a commit message in the textbox labeled (2) in the screenshot below. Type a message—for example, “Add links file” would be an appropriate commit message. After you commit, check for autograder output under `Actions`
 
 Modify and commit your files as many times as you need.
 
 
-![screenshot - enable Pages](img/github_dev_commit_dark.png)
+![commit dialog](img/github_dev_commit_dark.png)
 
 
 
