@@ -142,7 +142,7 @@ In the README file add your schedule as a nested bullet list, where each course 
 
 ## Step 8 - Submit your work
 - Follow the assignment invitation link:  
-  https://classroom.github.com/a/TBD
+  https://classroom.github.com/a/Yc2RHaL2
   
 - In the new Classroom repo edit the README file and append a link to your private repo at the bottom. The link should look like this:  
 `https://github.com/username/repo_name`  
