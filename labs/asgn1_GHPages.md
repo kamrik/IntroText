@@ -2,11 +2,11 @@
 
 
 ## Step 1 - Create your own public repo
-In the labs so far we edited files in a repository created by GitHub Classroom. In this assignment you will need to work with two repositories:
+In the labs so far, we have edited files in a repository created by GitHub Classroom. In this assignment you will need to work with two repositories:
 
-1. Your own repository, where most of the editing will happen, the address should look like this:  
+1. Your own repository, where most of the editing will happen. The address should look like this:  
 `github.com/your-username/your-repo-name`
-1. A GitHub Classroom with an address like this: `github.com/f25gbc/comp1238-asgn1-username`  
+1. A GitHub Classroom repo with an address like this: `github.com/comp1238w26/asgn1-username`  
 It will be used to tell the autograder where to look for the first repo.
 
 
@@ -45,7 +45,7 @@ Congratulations, you have your own website! Let's add some content.
 
 ## Step 3 - Add a `## Links` section in README.md
 
-Edit the files using whichever tool your prefer - GitHub web UI we used for labs 2 & 3 is also ok.
+Edit the files using whichever tool you prefer - the GitHub web UI we used in labs 2 & 3 is also fine.
 
 Copy the markdown below into this section. Feel free to modify it later, but for now we need some filler text to work with.
 
@@ -57,7 +57,7 @@ Copy the markdown below into this section. Feel free to modify it later, but for
 ```
 
 
-## Step 4 - change your website's visual theme
+## Step 4 - Change your website's visual theme
 - Create a new file called  `_config.yml` (this exact name)
 - Copy the following 2 lines into it
 
@@ -66,7 +66,7 @@ title: Demo notes repo
 theme: jekyll-theme-architect
 ```
 
-After you commit (save) this file, GitHub will rebuild the website. It takes some time, 20-40 seconds, you can see the progress under `Actions`. Check how your website looks like with the new theme.
+After you commit (save) this file, GitHub will rebuild the website. It takes some time, 20-40 seconds, you can see the progress under `Actions`. See how your website looks with the new theme.
 
 
 Experiment with applying any of the following themes. You can remove the `theme` line from _config.yml to go back to the default theme.
@@ -91,14 +91,14 @@ How to add a new file using GitHub web UI:
 
 ## Step 5 - Create another file named `comp1238.md`
 
-Each MarkDown (.md) file will become a page of your website. README.md you edited in the previous steps becomes the main page, but for a real "website experience" we need at least one other page.
+Each MarkDown (.md) file will become a page of your website. The README.md you edited in the previous steps becomes the main page, but for a real "website experience" we need at least one other page.
 
 ### Step 5.1
 Create a file named `comp1238.md`. Refer to the screenshot above or instructions from lab4 on how to add a new file.
 
 
 ### Step 5.2
-In the new file add a headings for each of the first 5 weeks and in each section create a bullet list with at least 2 items you think might be worth remembering for the midterm.
+In the new file add headings for each of the first 5 weeks and in each section create a bullet list with at least 2 items you think might be worth remembering for the midterm.
 
 For example:
 ```markdown
@@ -116,7 +116,7 @@ Feel free to add any text and links on top of the required 2 bullet items.
 
 
 ### Step 5.3
-Edit the README file to add a link from there to the new comp1238.md file. Otherwise you won't be able to access the page corresponding to this new file on your website. A link to a file located in the same repo looks like this:  
+Edit the README file to add a link to the new comp1238.md file. Otherwise you won't be able to access the page corresponding to this new file on your website. A link to a file located in the same repo looks like this:  
 `[link text](comp1238.md)`  
 For example, a link to the autograder instructions looks like  
 `[about autograder](autograder_instructions.md)`  
@@ -125,16 +125,16 @@ and renders as
 
 
 ## Step 6 - Explore repository history
-Go to the root of your repo and click the clock icon under the green "Code" button (see screenshot). This will show the history of all commits you made. Click on some of the commits to see how they look like. Spend some time exploring the history UI.
+Go to the root of your repo and click the clock icon under the green "Code" button (see screenshot). This will show the history of all commits you made. Click on some of the commits to see what they look like. Spend some time exploring the history UI.
 
 ![](img/GitHub_history.png)
 
 ## Step 7 - OPTIONAL - create a schedule with D2L links
 
-In the README file add your schedule as a nested bullet list, where each course name is a link to the course D2L page. Like this:
+In the README file, add your schedule as a nested bullet list, where each course name is a link to the course D2L page. Like this:
 
 - **Monday**
-  - 13:00 - [COMP1238 - Data Mgmnt](https://learn.georgebrown.ca/d2l/home/334969)
+  - 13:00 - [COMP1238 - Data Mgmnt](https://learn.georgebrown.ca/d2l/home/452067)
   - 16:00 - COMP0000 - Not a real course
 - **Tuesday**
   - etc
@@ -144,10 +144,10 @@ In the README file add your schedule as a nested bullet list, where each course 
 - Follow the assignment invitation link:  
   https://classroom.github.com/a/Yc2RHaL2
   
-- In the new Classroom repo edit the README file and append a link to your private repo at the bottom. The link should look like this:  
+- In the new Classroom repo edit the README file and append a link to your own repo at the bottom. The link should look like this:  
 `https://github.com/username/repo_name`  
 
-- Commit - this will trigger the autograder. Check for output under "Actions". Make sure to read the output in the black section.
+- Commit - this will trigger the autograder. Check for output under "Actions". Make sure to read the output in the log section.
 
 - To submit again, make any change in the README, for example
 
@@ -172,7 +172,7 @@ https://github.com/username/repo_name
 
 1. The README.md file in that repo contains a link to comp1238.md
 
-1. `comp1238.md` file exists and contains titles `## Week 1` ... `## Week 5` with at least 2 lines of text under each title
+1. `comp1238.md` file exists and contains the headings `## Week 1` … `## Week 5` with at least 2 lines of text under each heading
     
 1. The website `username.github.io/repo_name` is active 
 
