@@ -19,8 +19,8 @@ For example: "Phone: 4GB of RAM and 128GB of storage."
 Hint: Use gsmarena.com or search the internet for model specifications.
 
 Your answers:
-a) Phone: [Insert your answer here instead of this sentence.]
-b) Computer: [Insert your answer here]
+a) Phone: [4GB of RAM and 128GB of storage]
+b) Computer: [16GB of RAM and 477GB of storage]
 
 ================================================================================
 QUESTION 2: MONITOR PIXEL RESOLUTION
@@ -30,8 +30,8 @@ a) An old monitor (VGA resolution): 640 pixels wide by 480 pixels high.
 b) A recent monitor (FHD resolution): 1920 pixels wide by 1080 pixels high.
 
 Your answers:
-a) VGA monitor (640x480): [Insert your answer here]
-b) FHD monitor (1920x1080): [Insert your answer here]
+a) VGA monitor (640x480): [307,200 pixels]
+b) FHD monitor (1920x1080): [2,073,600 pixels]
 
 ================================================================================
 QUESTION 3: CHARACTER RECTANGLES IN TEXT MODE
@@ -48,8 +48,8 @@ rectangle (i.e., the space occupied by one character) for VGA and FHD
 resolutions:
 
 Your answers:
-a) VGA monitor: width =  , height = 
-b) FHD monitor: width =  , height = 
+a) VGA monitor: width = 8  , height = 20
+b) FHD monitor: width = 24 , height = 45
 
 ================================================================================
 BONUS QUESTION 4: HEX COLORS TO DECIMAL
@@ -67,15 +67,22 @@ Blue: 0xF2
 Convert each of these components to decimal (feel free to use any tools).
 
 Your answer:
-Red in decimal: [Insert your answer here]
-Green in decimal: [Insert your answer here]
-Blue in decimal: [Insert your answer here]
+Red in decimal: [225]
+Green in decimal: [34]
+Blue in decimal: [242]
 
 Compare your results to the numbers in the color picker at:
 https://www.w3schools.com/colors/colors_picker.asp
 
 Why we use 2 hexadecimal digits per channel and assume 3 are unnecessary?
+Two hex digits per color (like E1 for red) give us 256 possible shades for each color — from 0 to 255. That’s enough for about 16.7 million total colors (256 × 256 × 256), which is already more than the human eye can easily distinguish on a normal screen.
 
+If we used three hex digits per color, we’d get over 4,000 shades per color — way more than we need. That would make color codes longer (#E1122FF22 instead of #E122F2), harder to remember, and wouldn’t look visibly better on most screens or in most photos.
+
+So two hex digits are the sweet spot:
+✔️ Short and easy to read
+✔️ Matches what screens actually use
+✔️ Plenty of colors for everyday life
 
 ================================================================================
                               END OF ASSIGNMENT                                
