@@ -1,5 +1,40 @@
-# IntroText
-GBC COMP-1238 Course - Intro to Data Management.
+## Number Row Characters ##
+
+- ! -Exclamation mark
+- @ -AT sign
+- # - Hash, Pound, Sharp, Number sign
+- $ - Dollar sign
+- % - Percent sign
+- ^ - Caret, Circumflex, Hat
+- & - Ampersand and sign
+- * - Asterisk, star
+- ( - Left parenthesis, Open parenthesis
+- ) - Right parenthesis, Close parenthesis
+- _ - Underscore, Low dash
+- + - Plus sign
+
+## Few useful links as a bullet list ##
+- [Login to gitHub]( GitHub.com)
+- [Login to GBC](Georgebrown.ca)
+- [Login to Stu-view](Stu-view.ca)
+
+## Emojis ##
+- :smile:
+- :tada:
+- :rocket:
+- :thumbsup:
+
+## Image ##
+![Nature logo](https://picsum.photos/320)
+
+## Checklist ##
+
+- [x] complete the lab 
+- [x] complete the quiz
+- [x] write the disscussion
+
+## ASCII Art
+
 
 See the [summaries/](/summaries/) folder for lecture note summaries by week.
 
