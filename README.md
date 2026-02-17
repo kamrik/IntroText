@@ -106,4 +106,3 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 ## Ergnonomics
 - [Powerlifting as back pain prevention](https://www.youtube.com/watch?v=WxN9VzwoGGw) - by No Boilerplate
 
-
