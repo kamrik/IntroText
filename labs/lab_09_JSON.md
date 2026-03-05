@@ -42,7 +42,7 @@ It lists several players from different sports.
 CSV stands for 
 [Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values),
 which is a common format for storing table-like data. 
-GitHub renders CSV files as a tables, but you can see the raw text content by clicking either the `Code` or the `Raw` buttons above the file.
+GitHub renders CSV files as tables, but you can see the raw text content by clicking either the `Code` or the `Raw` buttons above the file.
 
 
 - `N/A` stands for Not Applicable—in this case, because this tennis player has no team. What data type would be appropriate in JSON/YAML to represent this?
@@ -50,15 +50,15 @@ GitHub renders CSV files as a tables, but you can see the raw text content by cl
 
 ---
 
-### Step 2 - create JSON & YAML versions of `players.csv`
+### Step 2 - Create JSON & YAML versions of `players.csv`
 Open 
 [this JSON-YAML converter](https://www.bairesdev.com/tools/json2yaml/)
-and type in the data from players.csv manually in JSON format.
+and manually enter the data from players.csv in JSON format.
 
 > Add several empty lines at the top of the text boxes to prevent the pop-up error message from hiding your text.
 
 
-Observe how the converter turns green whenever you type valid JSON. Start from typing in `[]` which is a valid empty JSON array. 
+Observe how the converter turns green whenever you type valid JSON. Start by typing `[]`, which is a valid empty JSON array. 
 Start adding objects, one per player, like this:
 ```js
 [
@@ -82,7 +82,7 @@ Store the team info as a sub-object like this:
 }
 ```
 
-After adding some info, you can switch to typing on the YAML side, and the converter will convert back to JSON. This can save you some typing but YAML can be slightly more confusing for beginners.
+After adding some info, you can switch to typing on the YAML side, and the converter will convert back to JSON. This can save you some typing, but YAML can be slightly more confusing for beginners.
 
    - The JSON file should start with `[` and end with `]` to indicate a **list (array)** in JSON.
    - Each row of the CSV should become an **object** in the JSON list.
@@ -148,6 +148,6 @@ Example:
   - Is the file present and correctly named?
   - Is it valid YAML (parsable)?
   - Does it contain a top-level list with at least 3 objects?
-  - Are there some comments (`#`) with field data types containing at least one of the following words: `number`, `string`, `null`, `boolean`, `object`, `array`?
+  - Are there comments (`#`) that indicate field data types and contain at least one of the following words: `number`, `string`, `null`, `boolean`, `object`, `array`?
 
 
