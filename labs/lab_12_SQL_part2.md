@@ -14,7 +14,7 @@ Gain experience running SQL SELECT queries with built in functions.
 
 ## Submission instructions
 Follow the assignment invitation link  
-https://classroom.github.com/a/TBD
+https://classroom.github.com/a/qN0_HqU1
 
 In the repo created by GitHub Classroom, modify the `queries.sql` file. It will be auto-graded on each commit.
 
