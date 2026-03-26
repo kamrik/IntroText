@@ -10,7 +10,7 @@
 - ACID principles
 
 ## The goal for today
-Gain experience running SQL SELECT queries with built in functions.
+Gain experience running SQL SELECT queries with built-in functions.
 
 ## Submission instructions
 Follow the assignment invitation link  
@@ -120,7 +120,7 @@ Documentation for SQLite built-in functions can be found at https://www.sqlite.o
    - Write a query to list the titles of all assignments that are due in September, regardless of year. Use the `LIKE` operator to filter by `due_date`.
    
 8. **Assignments with Missing Due Dates:**  
-   - Write a query to find all assignments where the `due_date` is missing. Note: There might be no assignments with NULL due_dates initially, but one was added if you ran the INSERT statement in the examples above.
+   - Write a query to find all assignments where the `due_date` is missing. Note: There might be no assignments with NULL due dates initially, but one was added if you ran the INSERT statement in the examples above.
    Hint: `due_date IS NULL`
    
 
