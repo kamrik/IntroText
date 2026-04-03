@@ -3,7 +3,7 @@
 
 ## Submission instructions
 Follow the assignment invitation link  
-https://classroom.github.com/TBD
+https://classroom.github.com/a/jlFNJ09U
 
 In the repo created by GitHub Classroom modify the `queries.sql` file. It will be auto-graded on each commit.
 
