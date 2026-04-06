@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Lebron James",
+    "sport": "basketball",
+    "position": "forward",
+    "age": 38,
+    "team": {
+      "name": "Lakers",
+      "city": "Los Angeles"
+    }
+  },
+  {
+    "name": "Lionel Messi",
+    "sport": "soccer",
+    "position": "forward",
+    "age": 36,
+    "team": {
+      "name": "Inter Miami",
+      "city": "Miami"
+    }
+  },
+  {
+    "name": "Serena Williams",
+    "sport": "tennis",
+    "position": "player",
+    "age": 41,
+    "team": {
+      "name": "N/A",
+      "city": "N/A"
+    }
+  }
+]
