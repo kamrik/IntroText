@@ -55,8 +55,8 @@ About the game:
 - [Wikipedia page](https://en.wikipedia.org/wiki/Zork)
 
 Play the game in the browser:
-- [Option 1](https://playclassic.games/games/adventure-dos-games-online/play-zork-great-underground-empire-online/play/)
-- [Option 2](https://www.pcjs.org/software/pcx86/game/infocom/zork1/)
+- [Option 1](https://www.pcjs.org/software/pcx86/game/infocom/zork1/)
+- [Option 2](https://iplayif.com/?story=https%3A%2F%2Feblong.com%2Finfocom%2Fgamefiles%2Fzork1-invclues-r52-s871125.z5)
 
 
 ## Optional: Writing Assignment - not for submission
