@@ -30,11 +30,11 @@ If you already have a GitHub account, skip to the next step.
  `github.com/comp1238f26/lab2-YourUsername`
 - The bot will respond within 3 minutes with a link to your new repository.
 
-<img src="img/edit_file.png" alt="Edit file" style="border: 2px solid black; border-radius: 5px;">
+<img src="img/bot_email_screenshot.png" alt="Edit file" style="border: 2px solid black; border-radius: 5px;">
 
 ## 3. Complete the assignment in your new repository
 - Use the [autograder instructions](autograder_instructions.md) to find your way around your new repo.
 - Open the lab2.txt file in that repo and complete the questions there.
-    - In the first question, fill in your GBC email. It should look like this: `name.surname@georgebrown.ca`
-    - When you save the lab2.txt file, a script will automatically check it.
-    - You may save it multiple times; only your best attempt counts.
+  - When you save the lab2.txt file, a script will automatically check it.
+  - You can see the results of your submission in the "Actions" tab of your repository.
+  - You may save it multiple times, the best attempt counts.
