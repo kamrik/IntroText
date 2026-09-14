@@ -30,7 +30,7 @@ If you already have a GitHub account, skip to the next step.
  `github.com/comp1238f26/lab2-YourUsername`
 - The bot will respond within 3 minutes with a link to your new repository.
 
-<img src="img/bot_email_screenshot.png" alt="Edit file" style="border: 2px solid black; border-radius: 5px;">
+![Bot email](img/bot_email_screenshot.png)
 
 ## 3. Complete the assignment in your new repository
 - Use the [autograder instructions](autograder_instructions.md) to find your way around your new repo.
