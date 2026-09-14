@@ -28,7 +28,7 @@ If you already have a GitHub account, skip to the next step.
 - Include your GitHub account link in the email **subject** line.
 - A new repository will be created for you. This repository belongs to the `comp1238f26` organization and the address will look like this:  
  `github.com/comp1238f26/lab2-YourUsername`
-- The bot will respond withing 3 minutes with a link to your new repository.
+- The bot will respond within 3 minutes with a link to your new repository.
 
 <img src="img/edit_file.png" alt="Edit file" style="border: 2px solid black; border-radius: 5px;">
 
