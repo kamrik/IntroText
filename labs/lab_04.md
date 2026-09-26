@@ -15,9 +15,13 @@ YouTube Video: [How to get started with VS Code](https://www.youtube.com/watch?v
 
 ## Step 2 - Edit the lab repo using the `github.dev` editor
 
-Open the front page of your repo and replace the `.com` with `.dev` in the browser address bar. For example:  
-- `github.com/comp1238w26/lab4-user/` — use `.com` for the repo  
-- `github.dev/comp1238w26/lab4-user/` — use `.dev` for the editor
+- Open the front page of your lab repo
+- Copy the page address fromn the address bar
+- Open it in another tab but with the `.com` replaced with `.dev`
+
+For example:  
+- `github.com/comp1238f26/lab4-user/` — use `.com` for the repo  
+- `github.dev/comp1238f26/lab4-user/` — use `.dev` for the editor
 
 It will open the repo in a text editor that should look similar to this screenshot:
 ![GitHub dev editor](img/github_dev_ui_dark.png)
@@ -39,7 +43,7 @@ Shortcuts I frequently use:
 Shortcuts I would like to start using: 
 - Ctrl-A (select all)
 - Win-D (show desktop)
-- Super-Hyper-Meta-F (I don’t even have such keys, but it sounds impressive)
+- Super-Hyper-Meta-F (I don’t have those midifier keys, but it sounds impressive)
 ```
 
 
