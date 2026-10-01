@@ -1,0 +1,24 @@
+# The top-level structure is an array
+- name: Lebron James # string
+  sport: basketball # string
+  position: forward # string
+  age: 38 # number
+  team: # object
+    name: Lakers # string
+    city: Los Angeles # string
+
+- name: Lionel Messi # string
+  sport: soccer # string
+  position: forward # string
+  age: 36 # number
+  team: # object
+    name: Inter Miami # string
+    city: Miami # string
+
+- name: Serena Williams # string
+  sport: tennis # string
+  position: player # string
+  age: 41 # number
+  team: # object
+    name: null # null
+    city: null # null
