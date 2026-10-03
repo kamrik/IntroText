@@ -56,6 +56,10 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
   - [Play the game](https://www.pcjs.org/software/pcx86/game/infocom/zork1/)
   - [YouTube video](https://www.youtube.com/watch?v=HCIesZ1yY_w)
   - [Wikipedia](https://en.wikipedia.org/wiki/Zork)
+
+## RegEx
+- [regexle](https://regexle.com/) - daily hexagonal crossword puzzle where you need to fill in the hexagons with alphanumeric character sequences, so that they match the RegEx rules listed around the edges
+- [Regex101](https://regex101.com/) - a popular online tool used to test, debug, and build regular expressions
   
 
 ## Git & GitHub
