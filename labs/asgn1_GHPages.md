@@ -4,9 +4,9 @@
 ## Step 1 - Create your own public repo
 In the labs so far, we have edited files in a repository created by GitHub Classroom. In this assignment you will need to work with two repositories:
 
-1. Your own repository, where most of the editing will happen. The address should look like this:  
+1. Your own repository you will create yourself, where most of the editing will happen. The address should look like this:  
 `github.com/your-username/your-repo-name`
-1. A GitHub Classroom repo with an address like this: `github.com/comp1238w26/asgn1-username`  
+1. An assignment repository created by the email bot with an address like this: `github.com/comp1238f26/asgn1-username`  
 It will be used to tell the autograder where to look for the first repo.
 
 
@@ -141,10 +141,9 @@ In the README file, add your schedule as a nested bullet list, where each course
 
 
 ## Step 8 - Submit your work
-- Follow the assignment invitation link:  
-  https://classroom.github.com/a/hj0Tt9gf
+- Follow the [email bot instructions](email_bot.md) to get your assignment repository link from the bot.
   
-- In the new Classroom repo edit the README file and append a link to your own repo at the bottom. The link should look like this:  
+- In the assignment repository edit the README file and append a link to your own repository at the bottom. The link should look like this:  
 `https://github.com/username/repo_name`  
 
 - Commit - this will trigger the autograder. Check for output under "Actions". Make sure to read the output in the log section.
@@ -158,7 +157,7 @@ attempt number 42
 https://github.com/username/repo_name
 ```
 
-> - Changes to the GitHub Classroom repo at `github.com/comp1238w25/asgn1-username` will trigger the autograder  
+> - Changes to the assignment repo at `github.com/comp1238f26/asgn1-username` will trigger the autograder  
 > - Changes to your website repo at `github.com/username/repo_name` trigger a rebuild of the website, but NOT the autograder.
 
 
