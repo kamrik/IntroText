@@ -1,5 +1,41 @@
 # IntroText
 GBC COMP-1238 Course - Intro to Data Management.
+hazelsantos@georgebrown.ca
+
+## Number Row Characters
+- ! - Exclamation mark, exclamation point
+- @ - at sign, at symbol
+- /# - Hash, pound, number sign
+- $ - Dollar sign
+- % - Percent sign
+- ^ - caret
+- & - ampersand
+- \* - asterisk star
+- ( - Left parenthesis, Open parenthesis
+- ) - Right parenthesis, Close parenthesis
+
+  ## Links
+  - [ GitHub Pages](https://pages.github.com/)
+  - [Markdown Guide ](https://www.markdownguide.org)
+  - [GitHub Markdown](https://docs.github.com./en/get-started-writing-on-github)
+
+  ## Emojis
+  I am learning Markdown 😄 🚀 💻
+
+  ## Images
+  ![Random Image](https://picsum.photos/320/)
+
+  ## Checklist
+  - [x] Learn Markdown basics
+  - [ ]  Create a cool Github README
+  - [ ]  Complete this excersise
+ 
+  ## ASCII Art
+ ```    
+   /\
+  /  \
+ /____\
+ ```
 
 See the [summaries/](/summaries/) folder for lecture note summaries by week.
 
