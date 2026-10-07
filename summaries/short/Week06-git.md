@@ -59,8 +59,8 @@ Generated from Zoom audio transcript by ChatGPT
    
 ## Tips for Using Git  
 - **Commit Often:** Helps track changes and revert if necessary.  
-- **Use Descriptive Messages:** Makes it easier to understand history.  
-- **Communicate with Team:** Avoids conflicts and ensures smooth collaboration.  
+- **Use Descriptive Commit Messages:** Most importantly, say **why** the change was made. What changed can be seen from the diff.  
+- **Communicate with Team:** Git is a great tool, but it does not replace proper communication with your teammates.  
    
 ## Additional Resources  
 - **Videos and Tutorials:** Explore different styles and explanations for Git and GitHub.  
