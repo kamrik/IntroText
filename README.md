@@ -106,6 +106,7 @@ See the [summaries/](/summaries/) folder for lecture note summaries by week.
 
 ## Learning Techniques 
 - [Quick overview of the 3C method](https://www.youtube.com/watch?v=npQ2IORdlvU) - by theMITmonk
+- [The easy way to learn nothing](https://youtu.be/wYk1IpGEBIk) - by Kevin Powell - Using AI to for learning, not against it.
 
 ## Ergnonomics
 - [Powerlifting as back pain prevention](https://www.youtube.com/watch?v=WxN9VzwoGGw) - by No Boilerplate
