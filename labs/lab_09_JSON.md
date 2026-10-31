@@ -1,28 +1,27 @@
 # Lab 9 - JSON and YAML
 
-## Material covered during the lecture:
+## Material Covered in the Lecture
 - Structured data
 - JSON and JSON data types
 - YAML
-- Data Serialization and Deserialization
+- Data serialization and deserialization
 
 ---
 
-## The Goal for Today
-Explore JSON & YAML:
+## Today's Goal
+Explore JSON and YAML:
 - Convert a simple CSV file to JSON
-- Add comments in YAML with keywords describing JSON data types (number, string, etc.)
+- Add comments to YAML with keywords describing data types (number, string, etc.)
 - Validate JSON and YAML
-- Format files neatly (optional with VSCode)
-- Submit files through GitHub Classroom for automatic grading
+- Format files neatly (optional with VS Code)
+- Submit files for automatic grading
 
 ---
 
 ## Submission Process
-Follow the assignment invitation link:  
-https://classroom.github.com/a/N68ch8SQ
+Follow the [email bot instructions](email_bot.md) to get your new repository link from the bot.
 
-Please save your work in the following two files in the **root directory of your repository**:
+Save your work in the following two files in the **root directory of your repository**:
 1. `players.json`
 2. `players.yaml` (or `players.yml`)
 
@@ -39,60 +38,59 @@ The autograder script will:
 Take a look at [players.csv](../examples/players.csv).  
 It lists several players from different sports.
 
-CSV stands for 
-[Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values),
-which is a common format for storing table-like data. 
+CSV stands for
+[comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values),
+which is a common format for storing table-like data.
 GitHub renders CSV files as tables, but you can see the raw text content by clicking either the `Code` or the `Raw` buttons above the file.
 
 
-- `N/A` stands for Not Applicable—in this case, because this tennis player has no team. What data type would be appropriate in JSON/YAML to represent this?
-- How many **columns** and **rows** are there in this file? How can the CSV format be mapped to JSON and YAML?
+- `N/A` stands for "Not Applicable"—in this case, because this tennis player has no team. What data type would be appropriate in JSON or YAML to represent this value?
+- How many **columns** and **rows** are in this file? How can the CSV format be mapped to JSON and YAML?
 
 ---
 
-### Step 2 - Create JSON & YAML versions of `players.csv`
-Open 
-[this JSON-YAML converter](https://www.bairesdev.com/tools/json2yaml/)
-and manually enter the data from players.csv in JSON format.
+### Step 2 - Create JSON and YAML Versions of `players.csv`
+Open [this JSON-to-YAML converter](https://www.bairesdev.com/tools/json2yaml/)
+and manually enter the data from `players.csv` in JSON format.
 
 > Add several empty lines at the top of the text boxes to prevent the pop-up error message from hiding your text.
 
 
-Observe how the converter turns green whenever you type valid JSON. Start by typing `[]`, which is a valid empty JSON array. 
-Start adding objects, one per player, like this:
+Observe how the converter turns green whenever you type valid JSON. Start by typing `[]`, which is a valid empty JSON array.
+Add one object per player, like this:
 ```js
 [
     {
-        "name": "James Brown"
+        "name": "James Brown",
         ...
     },
     {
         ...
-        
+    }
 ]
 
 ```
 
-Store the team info as a sub-object like this:
+Store the team information as a sub-object like this:
 ```js
 {   
-    "sports": "Basketball",
-    "team": {"name":"Raptors", "city":"Toronto"},
+    "sport": "Basketball",
+    "team": {"name": "Raptors", "city": "Toronto"},
     ...
 }
 ```
 
-After adding some info, you can switch to typing on the YAML side, and the converter will convert back to JSON. This can save you some typing, but YAML can be slightly more confusing for beginners.
+After adding some information, you can switch to the YAML side, and the converter will convert it back to JSON. This can save you some typing, but YAML can be slightly more confusing for beginners.
 
-   - The JSON file should start with `[` and end with `]` to indicate a **list (array)** in JSON.
-   - Each row of the CSV should become an **object** in the JSON list.
+   - The JSON file should start with `[` and end with `]` to indicate a **array (list)** in JSON.
+   - Each row of the CSV should become an **object** in the JSON array.
    - Store team information as a **sub-object** under the `team` key.
 
 Example:
 ```json
 [
     {
-        "name": "Lebron James",
+        "name": "LeBron James",
         "sport": "basketball",
         "position": "forward",
         "age": 38,
@@ -106,14 +104,14 @@ Example:
 
 
 For the YAML version:
-   - Include comments next to several fields in the YAML file. The comment should contain the data type of the field. For example: `age: 38 # number`
+   - Include comments next to several fields in the YAML file. Each comment should contain the field's data type. For example: `age: 38 # number`
    
-   - The autograder will be looking for at least one of the following words in the comments: `number`, `string`, `null`, `boolean`, `object`, `array`.
+   - The autograder will look for at least one of the following words in the comments: `number`, `string`, `null`, `boolean`, `object`, `array`.
 
 Example:
 ```yaml
-# The top-level structure is a list (array)
-- name: Lebron James
+# The top-level structure is an array (list)
+- name: LeBron James
   sport: basketball
   position: forward  # string
   age: 38  # number
@@ -127,8 +125,8 @@ Example:
 
 ---
 
-### Step 3 (Optional) - Format Your Files with VSCode
-1. Open your files in VSCode (or `github.dev`).
+### Step 3 (Optional) - Format Your Files with VS Code
+1. Open your files in VS Code (or `github.dev`).
 2. Use the "Format Document" option to format your JSON and YAML files neatly:
    - Press `Ctrl-Shift-P` (or `Cmd-Shift-P` on Mac) to open the command palette.
    - Type "Format Document" and run the command.
@@ -149,5 +147,3 @@ Example:
   - Is it valid YAML (parsable)?
   - Does it contain a top-level list with at least 3 objects?
   - Are there comments (`#`) that indicate field data types and contain at least one of the following words: `number`, `string`, `null`, `boolean`, `object`, `array`?
-
-
