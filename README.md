@@ -2,8 +2,48 @@
 GBC COMP-1238 Course - Intro to Data Management.
 
 See the [summaries/](/summaries/) folder for lecture note summaries by week.
-
-
+## Number Row Characters
+- ! - exclamation mark
+-  @ - at sign
+-  #- hashtag
+-  $ - dollar sign
+-  % - percent
+-  ^ -
+-  & - And sign
+-  \* - Asterisk
+-  ( - Open bracket
+-  ) - Close bracket
+-  _ - Underline
+-  \+ - Plus sign
+  ## Links 
+  - [GitHub Pages](https://pages.github.com/)
+- [Markdown Guide](https://www.markdownguide.org/)
+## Emojis 
+😂
+😉
+😁
+😢
+🐈‍⬛
+## Images 
+![Mountain as SVG](https://fastly.picsum.photos/id/198/320/320.jpg?hmac=-BAbEBw5P-TL2Ivq44RaRdseoAWPRIcX5jNi0KjyCpc)
+## Checklist
+- [x] create a cool README
+- [ ] Complete all my assignments this week
+- [ ] Get an A+ In this class😆
+# ASCII Art 
+'''
+ /$$   /$$ /$$            /$$                          
+| $$$ | $$|__/           | $$                          
+| $$$$| $$ /$$ /$$    /$$| $$  /$$$$$$   /$$$$$$$      
+| $$ $$ $$| $$|  $$  /$$/| $$ |____  $$ /$$_____/      
+| $$  $$$$| $$ \  $$/$$/ | $$  /$$$$$$$| $$            
+| $$\  $$$| $$  \  $$$/  | $$ /$$__  $$| $$            
+| $$ \  $$| $$   \  $/   | $$|  $$$$$$$|  $$$$$$$      
+|__/  \__/|__/    \_/    |__/ \_______/ \_______/    
+'''                                                       
+                                                       
+                                                       
+                              
 # Videos and links by subject
 
 ## Typing
