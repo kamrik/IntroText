@@ -1,14 +1,13 @@
 # Lab 11 - SQL
 
-## The goal for today
+## Today's Goal
 Gain experience running simple SQL `SELECT` queries.
 
-## Submission process
+## Submission Process
 
-Follow the assignment invitation link:  
-https://classroom.github.com/a/saocAcKA
+Follow the [email bot instructions](email_bot.md) to get your new repository link from the bot.
 
-In the repository created by GitHub Classroom, modify the `queries.sql` file. It will be auto-graded on each commit.
+In your repository, modify the `queries.sql` file. It will be automatically graded on each commit.
 
 ## Step 1 - Open the database on sqliteonline.com
 
@@ -21,7 +20,7 @@ If you are curious, this database was initialized from the script in [t177.sql](
 
 ## Step 2 - Run some queries to get started
 
-Run each of the following `SELECT` queries. Observe the output and try to understand it.
+Run each of the following `SELECT` queries. Observe the output and try to understand what it means.
 
 To run a query on sqliteonline.com, press `Shift+Enter` on the keyboard or click the green **Run** (▶) button at the top of the page.
 
