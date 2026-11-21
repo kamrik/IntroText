@@ -9,29 +9,28 @@
 - ERDs 
 - ACID principles
 
-## The goal for today
-Gain experience running SQL SELECT queries with built-in functions.
+## Today's Goal
+Gain experience running SQL `SELECT` queries with built-in functions.
 
-## Submission instructions
-Follow the assignment invitation link  
-https://classroom.github.com/a/qN0_HqU1
+## Submission Process
+Follow the [email bot instructions](email_bot.md) to get your new repository link from the bot.
 
-In the repo created by GitHub Classroom, modify the `queries.sql` file. It will be auto-graded on each commit.
+In your repository, modify the `queries.sql` file. It will be automatically graded on each commit.
 
-## Step 1 - open the database in sqliteonline.com
-Open the practice SQLite database using the link below.
-You should see the Courses and Assignments tables in the left panel.
+## Step 1 - Open the database on sqliteonline.com
+Open the practice SQLite database using the link below.  
+You should see the `courses` and `assignments` tables in the left panel.
 
 https://sqliteonline.com/#urldb=https://raw.githubusercontent.com/kamrik/IntroText/refs/heads/main/examples/sql/t177.db
 
-> This DB was initialized using this SQL file [t177.sql](../examples/sql/t177.sql)
+> This database was initialized using the SQL file [t177.sql](../examples/sql/t177.sql).
 
 
-## Step 2 - run some queries to get started
-Run each of the following SELECT queries.
-To execute the query on sqliteonline.com, you can either press `Shift-Enter` on the keyboard or click the green triangle `▶ Run` button at the top of the page.
+## Step 2 - Run some queries to get started
+Run each of the following `SELECT` queries.
+To execute a query on sqliteonline.com, press `Shift-Enter` on the keyboard or click the green triangle `▶ Run` button at the top of the page.
 
-Observe the results for each query and try to understand them.
+Observe the results of each query and try to understand them.
 
 ```sql
 
@@ -88,7 +87,7 @@ WHERE status != 'Completed'
 ORDER BY due_date;
 ```
 
-## Step 3 - write queries for the following tasks
+## Step 3 - Write and submit queries for the following tasks
 
 Documentation for SQLite built-in functions can be found at https://www.sqlite.org/lang_corefunc.html
 
@@ -120,7 +119,7 @@ Documentation for SQLite built-in functions can be found at https://www.sqlite.o
    - Write a query to list the titles of all assignments that are due in September, regardless of year. Use the `LIKE` operator to filter by `due_date`.
    
 8. **Assignments with Missing Due Dates:**  
-   - Write a query to find all assignments where the `due_date` is missing. Note: There might be no assignments with NULL due dates initially, but one was added if you ran the INSERT statement in the examples above.
+   - Write a query to find all assignments where the `due_date` is missing. Note: Initially there may be no assignments with NULL due dates, but one is added if you ran the `INSERT` statement in the examples above.
    Hint: `due_date IS NULL`
    
 
